@@ -13,9 +13,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "My Becoming Path",
-  description: "Helping people rebuild after life changed everything.",
+  description:
+    "Helping people rebuild after life changed everything.",
+  openGraph: {
+    title: "My Becoming Path",
+    description:
+      "Helping people rebuild after life changed everything.",
+    images: ["/hero.jpg"],
+  },
 };
 
 export default function RootLayout({

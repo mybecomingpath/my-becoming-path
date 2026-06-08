@@ -186,8 +186,12 @@ export default function CoachingPage() {
     </h2>
 
     <p className="mt-6 max-w-5xl text-lg leading-8 text-[#5D625A]">
-      Each package is designed to support you as you rebuild, reconnect, and move forward with greater clarity.
-    </p>
+  Each package is designed to support you as you rebuild, reconnect, and move forward with greater clarity.
+</p>
+
+<p className="mt-4 max-w-5xl text-lg leading-8 text-[#5D625A]">
+  Every coaching relationship begins with a free clarity call where we'll explore your goals, determine whether we're a good fit, and identify the level of support that best meets your needs.
+</p>
 
     <div className="mt-12 grid gap-6 lg:grid-cols-3">
       {[
@@ -269,6 +273,17 @@ export default function CoachingPage() {
       ))}
     </div>
   </div>
+  <div className="mx-auto mt-12 max-w-5xl rounded-3xl border border-[#D8D3C8] bg-white/60 p-6 text-center">
+  <p className="text-sm leading-7 text-[#5D625A]">
+    <span className="font-semibold text-[#26382F]">
+      Coaching Disclaimer:
+    </span>{" "}
+    Coaching services are not therapy, counseling, crisis intervention,
+    or medical treatment. If you are experiencing a mental health emergency,
+    please contact local emergency services or a licensed mental health
+    professional.
+  </p>
+</div>
 </section>
       {/* FINAL CTA */}
       <section className="bg-[#26382F] px-7 py-24 text-center text-[#F4F1EA] md:px-16">

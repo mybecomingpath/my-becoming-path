@@ -256,9 +256,11 @@ export default function CoachingPage() {
               <li key={item}>• {item}</li>
             ))}
           </ul>
-
+<p className="mt-6 text-sm font-semibold uppercase tracking-[0.16em] text-[#8C846F]">
+  Investment shared during clarity call
+</p>
           <a
-            href="#clarity-call"
+            href="/book"
             className="mt-8 inline-flex w-fit items-center rounded-full bg-[#26382F] px-6 py-3 font-semibold text-[#F4F1EA] transition hover:-translate-y-1 hover:shadow-md"
           >
             Explore This Option →

@@ -174,7 +174,121 @@ export default function CoachingPage() {
           </div>
         </div>
       </section>
+{/* WAYS TO WORK TOGETHER */}
+<section className="bg-[#F4F1EA] px-7 py-24 text-[#26382F] md:px-16">
+  <div className="mx-auto max-w-7xl">
+    <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#8C846F]">
+      WAYS TO WORK TOGETHER
+    </p>
 
+    <h2 className="font-serif text-5xl leading-[1.08] md:text-6xl">
+      Choose the level of support that feels right.
+    </h2>
+
+    <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
+      Each package is designed to support you as you rebuild, reconnect, and
+      move forward with greater clarity.
+    </p>
+
+    <div className="mt-14 grid gap-6 lg:grid-cols-3">
+      {/* Package 1 */}
+      <div className="rounded-3xl bg-white p-8 shadow-sm">
+        <h3 className="font-serif text-3xl leading-tight">
+          Finding Your Footing
+        </h3>
+
+        <p className="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-[#8C846F]">
+          1 Month • Weekly Coaching
+        </p>
+
+        <p className="mt-6 leading-8 text-[#5D625A]">
+          For those navigating a recent life transition and looking for clarity,
+          support, and direction.
+        </p>
+
+        <ul className="mt-6 space-y-3 leading-7 text-[#5D625A]">
+          <li>• 4 weekly coaching sessions</li>
+          <li>• Session recordings</li>
+          <li>• Reflection prompts</li>
+          <li>• Email support between sessions</li>
+        </ul>
+
+        <p className="mt-8 text-xl font-semibold text-[#26382F]">
+          Investment: $499
+        </p>
+      </div>
+
+      {/* Package 2 */}
+      <div className="relative rounded-3xl border border-[#26382F] bg-white p-8 shadow-md lg:-translate-y-4">
+        <div className="mb-5 inline-flex rounded-full bg-[#26382F] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#F4F1EA]">
+          Most Popular
+        </div>
+
+        <h3 className="font-serif text-3xl leading-tight">
+          Rebuilding Yourself
+        </h3>
+
+        <p className="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-[#8C846F]">
+          3 Months • Weekly Coaching
+        </p>
+
+        <p className="mt-6 leading-8 text-[#5D625A]">
+          For those ready to move beyond survival mode and intentionally
+          rebuild their lives.
+        </p>
+
+        <ul className="mt-6 space-y-3 leading-7 text-[#5D625A]">
+          <li>• 12 weekly coaching sessions</li>
+          <li>• Session recordings</li>
+          <li>• Reflection prompts</li>
+          <li>• Email support</li>
+          <li>• Ongoing accountability</li>
+        </ul>
+
+        <p className="mt-8 text-xl font-semibold text-[#26382F]">
+          Investment: $1,299
+        </p>
+      </div>
+
+      {/* Package 3 */}
+      <div className="rounded-3xl bg-white p-8 shadow-sm">
+        <h3 className="font-serif text-3xl leading-tight">
+          Creating Your Next Chapter
+        </h3>
+
+        <p className="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-[#8C846F]">
+          6 Months • Long-Term Support
+        </p>
+
+        <p className="mt-6 leading-8 text-[#5D625A]">
+          For those committed to creating lasting change and building a life
+          aligned with who they are becoming.
+        </p>
+
+        <ul className="mt-6 space-y-3 leading-7 text-[#5D625A]">
+          <li>• 24 coaching sessions</li>
+          <li>• Session recordings</li>
+          <li>• Reflection prompts</li>
+          <li>• Email support</li>
+          <li>• Accountability and long-term planning</li>
+        </ul>
+
+        <p className="mt-8 text-xl font-semibold text-[#26382F]">
+          Investment: $2,499
+        </p>
+      </div>
+    </div>
+
+    <div className="mt-14 text-center">
+      <a
+        href="#clarity-call"
+        className="inline-flex items-center rounded-full bg-white px-8 py-4 font-semibold text-[#26382F] shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+      >
+        Book a Free Clarity Call →
+      </a>
+    </div>
+  </div>
+</section>
       {/* FINAL CTA */}
       <section className="bg-[#26382F] px-7 py-24 text-center text-[#F4F1EA] md:px-16">
         <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">

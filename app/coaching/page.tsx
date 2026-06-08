@@ -202,9 +202,9 @@ export default function CoachingPage() {
             "For those navigating a recent life transition and looking for clarity, support, and direction.",
           items: [
             "4 weekly coaching sessions",
-            "Session recordings",
-            "Reflection prompts",
-            "Email support between sessions",
+            "Session Recordings Available",
+            "Email summary after each session",
+            "Support between sessions",
           ],
         },
         {
@@ -214,9 +214,9 @@ export default function CoachingPage() {
             "For those ready to move beyond survival mode and intentionally rebuild their lives.",
           items: [
             "12 weekly coaching sessions",
-            "Session recordings",
-            "Reflection prompts",
-            "Email support",
+            "Session Recordings Available",
+            "Email summary after each session",
+            "Voice support between sessions",
             "Ongoing accountability",
           ],
           popular: true,
@@ -227,10 +227,10 @@ export default function CoachingPage() {
           description:
             "For those committed to creating lasting change and building a life aligned with who they are becoming.",
           items: [
-            "24 coaching sessions",
-            "Session recordings",
-            "Reflection prompts",
-            "Email support",
+            "24 weekly coaching sessions",
+            "Session Recordings Available",
+            "Email summary after each session",
+            "Voice support between sessions",
             "Accountability and long-term planning",
           ],
         },

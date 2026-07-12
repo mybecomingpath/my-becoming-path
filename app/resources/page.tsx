@@ -95,12 +95,14 @@ export default function ResourcesPage() {
 
       {/* Purchase buttons */}
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-        <Link
-          href="/contact"
-          className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#c8903d] px-7 py-3 font-semibold text-white shadow-sm transition hover:bg-[#ad772d] focus:outline-none focus:ring-2 focus:ring-[#c8903d] focus:ring-offset-2"
-        >
-          Order Your Signed Copy
-        </Link>
+        <a
+  href="PASTE-YOUR-STRIPE-PAYMENT-LINK-HERE"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#c8903d] px-7 py-3 font-semibold text-white shadow-sm transition hover:bg-[#ad772d] focus:outline-none focus:ring-2 focus:ring-[#c8903d] focus:ring-offset-2"
+>
+  Order Your Signed Copy
+</a>
 
         <a
           href={barnesAndNobleUrl}

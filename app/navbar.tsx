@@ -41,6 +41,7 @@ useEffect(() => {
     { name: "About Me", href: "/about" },
     { name: "Coaching", href: "/coaching" },
     { name: "Resources", href: "/resources" },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ];
 

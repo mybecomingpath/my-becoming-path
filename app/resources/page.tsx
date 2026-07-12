@@ -22,7 +22,7 @@ export default function ResourcesPage() {
     <div className="mx-auto w-full max-w-lg">
       <div className="overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/10">
         <Image
-          src="/images/empowered-grief-journey-cover.jpg"
+          src="/empowered-grief-journey-cover.jpg"
           alt="Cover of The Empowered Grief Journey by Chris Mamone"
           width={640}
           height={1024}

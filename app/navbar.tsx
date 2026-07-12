@@ -1,11 +1,40 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [navVisible, setNavVisible] = useState(true);
+const lastScrollY = useRef(0);
+
+useEffect(() => {
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+
+    // Always show the navigation near the top of the page.
+    if (currentScrollY < 80) {
+      setNavVisible(true);
+    } else if (currentScrollY > lastScrollY.current) {
+      // Scrolling down.
+      setNavVisible(false);
+      setMenuOpen(false);
+    } else {
+      // Scrolling up.
+      setNavVisible(true);
+    }
+
+    lastScrollY.current = currentScrollY;
+  };
+
+  lastScrollY.current = window.scrollY;
+  window.addEventListener("scroll", handleScroll, { passive: true });
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   const menuItems = [
     { name: "Home", href: "/" },
@@ -30,9 +59,23 @@ export default function Navbar() {
   }, []);
 
   return (
+  <>
+    {/* Invisible hover zone */}
+    <div
+      className="fixed inset-x-0 top-0 h-6 z-[9998]"
+      onMouseEnter={() => setNavVisible(true)}
+    />
+
     <nav
-      className="fixed left-4 right-4 top-5 z-[9999]"
-      onMouseEnter={() => setMenuOpen(true)}
+      className={`fixed left-4 right-4 top-5 z-[9999] transition-all duration-300 ease-in-out ${
+        navVisible
+          ? "translate-y-0 opacity-100"
+          : "-translate-y-24 opacity-0 pointer-events-none"
+      }`}
+      onMouseEnter={() => {
+        setNavVisible(true);
+        setMenuOpen(true);
+      }}
       onMouseLeave={() => setMenuOpen(false)}
     >
       <div className="rounded-full border border-white/15 bg-[#628378] shadow-lg">
@@ -77,6 +120,7 @@ export default function Navbar() {
           ))}
         </div>
       </div>
-    </nav>
-  );
+        </nav>
+  </>
+);
 }

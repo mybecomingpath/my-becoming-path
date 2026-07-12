@@ -115,8 +115,7 @@ export default function ResourcesPage() {
       </div>
 
       <p className="mt-4 text-sm leading-6 text-[#667085]">
-        Secure direct checkout will be added once the Stripe payment page is
-        ready.
+        Secure checkout powered by Stripe. All orders are shipped from the United States. International shipping may take longer and incur additional fees.
       </p>
     </div>
   </div>

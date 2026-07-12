@@ -12,6 +12,7 @@ export default function Navbar() {
   { name: "About Me", href: "/about" },
   { name: "Coaching", href: "/coaching" },
   { name: "Contact", href: "/contact" },
+  { name: "Resources", href: "/resources" },
 ];
 
   return (

@@ -46,18 +46,11 @@ export default function RebuildAfterChangePost() {
         <div className="mx-auto max-w-3xl">
           <div className="space-y-7 text-lg leading-8 text-[#303a4d]">
             <p>
-              There are moments in life when change does not arrive gently. It
-              tears through what was familiar, rearranges the future you had
-              imagined, and leaves you standing in a life that no longer feels
-              like your own.
+              There are moments in life when change does not arrive the way we expect. It tears through what was familiar, rearranging the future you imagined, and leaves you standing in a life that feels unfamiliar.
             </p>
 
             <p>
-              This can happen after grief, divorce, illness, job loss,
-              caregiving, trauma, relocation, or any experience that changes
-              the way you understand yourself and the world around you. In
-              those moments, the idea of “getting back to normal” can feel
-              impossible—and sometimes deeply unfair.
+              This can happen after grief, loss, trauma, divorce, career change, caregiving, or any experience that changes the way you understand yourself and the world around you. In those moments, the idea of, “getting back to normal” can feel impossible, and sometimes deeply unfair.
             </p>
 
             <p>

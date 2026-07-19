@@ -8,7 +8,7 @@ export const metadata = {
 
 const posts = [
   {
-    title: "How to Rebuild Your Life After Everything Changes",
+    title: "Rebuilding Your Life After Everything Changes",
     excerpt:
       "Rebuilding does not mean returning to who you were before. It means learning how to move forward while honoring everything that has changed.",
     slug: "how-to-rebuild-your-life-after-everything-changes",
@@ -64,9 +64,8 @@ export default function BlogPage() {
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#43506a]">
-            Thoughts, stories, and practical guidance for navigating grief,
-            major life disruption, identity shifts, personal growth, and the
-            ongoing work of rebuilding.
+            Stories, thoughts, and practical guidance for navigating, major life disruption, identity shifts, personal growth, and the
+            ongoing process of rebuilding your life to start again.
           </p>
         </div>
       </section>

@@ -25,13 +25,12 @@ export default function RebuildAfterChangePost() {
           </p>
 
           <h1 className="mt-4 font-serif text-4xl leading-tight tracking-tight sm:text-6xl">
-            How to Rebuild Your Life After Everything Changes
+            Rebuilding Your Life After Everything Changes
           </h1>
 
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#43506a]">
             Rebuilding does not mean returning to who you were before. It means
-            learning how to move forward while honoring everything that has
-            changed.
+            learning how to move forward while honoring your journey.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm text-[#667085]">

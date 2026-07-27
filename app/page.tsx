@@ -26,11 +26,11 @@ const menuItems = [
         <div className="relative z-10 flex min-h-[75vh] items-center px-7 md:min-h-[65vh] md:px-16">
           <div className="max-w-4xl text-white">
             <p className="mb-7 ml-[2px] text-[0.78rem] font-medium uppercase tracking-[0.42em] text-[#E8E3D8]/85">
-  Rebuilding • Growth • Becoming
+  FOR THE OUTLIERS
 </p>
 
 <h1 className="font-serif text-6xl leading-[0.95] tracking-tight md:text-7xl">
-  My Becoming Path
+  FOR THE UNTAMED WHO REFUSE TO CONFORM TO THE WRECKAGE
 </h1>
 
 <h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-4xl">

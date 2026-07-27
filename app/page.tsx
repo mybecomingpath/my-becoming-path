@@ -17,14 +17,14 @@ const menuItems = [
     <main className="min-h-screen bg-[#F4F1EA] text-[#26382F]">
      
       <section
-  className="relative min-h-[65vh] bg-cover bg-center pt-28 md:pt-0"
+  className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:pt-0"
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/25" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#10271f]/75 via-[#10271f]/35 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#10271f]/45 via-transparent to-transparent" />
 
-        <div className="relative z-10 flex min-h-[62vh] items-center px-7 md:min-h-[58vh] md:px-16">
+        <div className="relative z-10 flex min-h-[60vh] translate-y-4 items-center px-7 md:min-h-[56vh] md:px-16">
           <div className="max-w-4xl text-white">
             <p className="mb-7 ml-[2px] text-[0.82rem] font-bold uppercase tracking-[0.42em] text-white">
   A Message For The Outliers...

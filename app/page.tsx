@@ -86,12 +86,12 @@ const menuItems = [
   <div className="mx-auto max-w-7xl">
 
     {/* ROW 1: FULL WIDTH */}
-    <div className="border-y border-[#26382F]/40 py-8">
+    <div className="border-y border-[#26382F]/40 py-10 text-center">
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
         THE UNTAMED REBUILDER
       </p>
 
-      <h2 className="max-w-5xl font-serif text-[2.4rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[3rem]">
+      <h2 className="mx-auto max-w-5xl font-serif text-[1.9rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[2.1rem] lg:text-[2.25rem]">
         <span className="block">
           I’m not here to help you manage the disruption that keeps you playing small.
         </span>
@@ -103,10 +103,10 @@ const menuItems = [
     </div>
 
     {/* ROW 2: TWO COLUMNS */}
-    <div className="grid gap-10 py-12 lg:grid-cols-2 lg:items-center">
+    <div className="mx-auto grid max-w-6xl gap-8 py-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-12">
 
       {/* COLUMN A: PHOTO */}
-      <div className="flex justify-center lg:justify-start">
+      <div className="flex justify-center lg:justify-end">
         <img
           src="/chris.jpg"
           alt="Chris Mamone"
@@ -115,7 +115,7 @@ const menuItems = [
       </div>
 
       {/* COLUMN B: BODY TEXT */}
-      <div className="max-w-[680px]">
+      <div className="max-w-[620px]">
         <p className="text-[1.15rem] leading-[1.8] text-[#5D625A]">
           I’m Chris. After hosting a podcast with over 150 episodes and writing
           an anthology mapping the raw journey of heavy life disruptions, I know

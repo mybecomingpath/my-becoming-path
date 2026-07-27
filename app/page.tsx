@@ -93,7 +93,9 @@ const menuItems = [
 
       <h2 className="mx-auto max-w-5xl font-serif text-[1.9rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[2.1rem] lg:text-[2.25rem]">
         <span className="block">
-          I’m not here to help you manage the disruption that keeps you playing small.
+          I’m not here to help you manage the disruption
+          <br />
+          that keeps you playing small.
         </span>
 
         <span className="mt-4 block">

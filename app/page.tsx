@@ -83,72 +83,79 @@ const menuItems = [
         </div>
       </section>
 <section className="bg-[#F4F1EA] px-7 py-20 md:px-16">
+  <div className="mx-auto max-w-7xl">
 
-  <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
-
-    {/* PHOTO COLUMN */}
-
-    <div className="relative">
-
-      <img
-        src="/chris.jpg"
-        alt="Chris Mamone"
-        className="h-[550px] w-[420px] rounded-[36px] object-cover shadow-lg shadow-[#26382F]/10"
-      />
-
-    </div>
-
-    {/* TEXT COLUMN */}
-
-    <div className="max-w-[800px]">
-
+    {/* ROW 1: FULL WIDTH */}
+    <div className="border-y border-[#26382F]/40 py-8">
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
         THE UNTAMED REBUILDER
       </p>
 
-      <h2 className="font-serif text-[2.6rem] leading-[1.06] tracking-tight md:text-[3rem] lg:text-[3rem]">
-  <span className="block">
-    I’m not here to help you manage the disruption that keeps you playing small.
-  </span>
+      <h2 className="max-w-5xl font-serif text-[2.4rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[3rem]">
+        <span className="block">
+          I’m not here to help you manage the disruption that keeps you playing small.
+        </span>
 
-  <span className="mt-4 block">
-    I’m here to strip away the conditioning that holds you back and help you build an unshakable foundation that lasts.
-  </span>
-</h2>
-
-      <p className="mt-8 text-[1.15rem] leading-[1.8] text-[#5D625A]">
-
-        I’m Chris. After hosting a podcast with over 150 episodes and writing 
-an anthology mapping the raw journey of heavy life disruptions, I know 
-exactly what it takes to mount a serious comeback when life pulls the 
-rug out from under you. My coaching helps you process the past, accept 
-what was, and break free of the conditioning that led to a passive, 
-play-it-small life.
-
-      </p>
-
-      <p className="mt-6 text-[1.05rem] leading-[1.8] text-[#5D625A]">
-
-        My work is built for self-reliant outliers who took a massive hit. 
-Whether it's a career crash or a total identity shift, the individuals 
-I partner with refuse to let that crisis define them. We don't pretend 
-everything is okay, and we don't wait around for the "right moment" to 
-come along. We actively clear the aftermath, reclaim your raw drive, 
-and create an unshakable foundation for a life entirely on your terms.
-
-      </p>
-
-      <Link
-  href="/about"
-  className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#26382F] px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:scale-[1.02] hover:bg-[#1f2f28]"
->
-  See The 90-Day Framework →
-</Link>
-
+        <span className="mt-4 block">
+          I’m here to strip away the conditioning that holds you back and help you build an unshakable foundation that lasts.
+        </span>
+      </h2>
     </div>
 
-  </div>
+    {/* ROW 2: TWO COLUMNS */}
+    <div className="grid gap-10 py-12 lg:grid-cols-2 lg:items-center">
 
+      {/* COLUMN A: PHOTO */}
+      <div className="flex justify-center lg:justify-start">
+        <img
+          src="/chris.jpg"
+          alt="Chris Mamone"
+          className="h-[520px] w-full max-w-[430px] rounded-[36px] object-cover shadow-lg shadow-[#26382F]/10"
+        />
+      </div>
+
+      {/* COLUMN B: BODY TEXT */}
+      <div className="max-w-[680px]">
+        <p className="text-[1.15rem] leading-[1.8] text-[#5D625A]">
+          I’m Chris. After hosting a podcast with over 150 episodes and writing
+          an anthology mapping the raw journey of heavy life disruptions, I know
+          exactly what it takes to mount a serious comeback when life pulls the
+          rug out from under you. My coaching helps you process the past, accept
+          what was, and break free of the conditioning that led to a passive,
+          play-it-small life.
+        </p>
+
+        <p className="mt-6 text-[1.05rem] leading-[1.8] text-[#5D625A]">
+          My work is built for self-reliant outliers who took a massive hit.
+          Whether it&apos;s a career crash or a total identity shift, the individuals
+          I partner with refuse to let that crisis define them. We don&apos;t pretend
+          everything is okay, and we don&apos;t wait around for the &quot;right moment&quot;
+          to come along. We actively clear the aftermath, reclaim your raw drive,
+          and create an unshakable foundation for a life entirely on your terms.
+        </p>
+
+        <Link
+          href="/about"
+          className="
+            mt-10 inline-flex items-center gap-3
+            rounded-full bg-[#26382F]
+            px-8 py-4
+            font-semibold text-white
+            shadow-lg shadow-black/10
+            transition-all duration-300
+            hover:-translate-y-1
+            hover:bg-[#1A1A1A]
+            hover:shadow-xl
+            active:translate-y-0
+            active:scale-[0.97]
+          "
+        >
+          See The 90-Day Framework
+          <ArrowRight size={18} />
+        </Link>
+      </div>
+    </div>
+  </div>
 </section>
 
       <section className="bg-[#F4F1EA] px-7 pt-20 pb-24 md:px-16">

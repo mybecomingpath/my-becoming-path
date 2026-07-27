@@ -86,7 +86,7 @@ useEffect(() => {
             className="text-xs font-semibold uppercase tracking-[0.3em] text-white"
             onClick={() => setMenuOpen(false)}
           >
-            My Becoming Path
+            Untamed Rebuilder
           </Link>
 
           <button

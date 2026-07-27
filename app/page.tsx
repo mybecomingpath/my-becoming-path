@@ -107,10 +107,14 @@ const menuItems = [
       </p>
 
       <h2 className="font-serif text-[2.6rem] leading-[1.06] tracking-tight md:text-[3rem] lg:text-[3rem]">
-        I’m not here to help you manage the disruption that keeps you playing 
-small. I’m here to strip away the conditioning that holds you back 
-and help you build an unshakable foundation that lasts.
-      </h2>
+  <span className="block">
+    I’m not here to help you manage the disruption that keeps you playing small.
+  </span>
+
+  <span className="mt-4 block">
+    I’m here to strip away the conditioning that holds you back and help you build an unshakable foundation that lasts.
+  </span>
+</h2>
 
       <p className="mt-8 text-[1.15rem] leading-[1.8] text-[#5D625A]">
 

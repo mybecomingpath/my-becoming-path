@@ -120,7 +120,7 @@ const menuItems = [
 
       {/* COLUMN B: BODY TEXT */}
       <div className="max-w-[620px]">
-        <p className="text-[1.15rem] leading-[1.8] text-[#5D625A]">
+        <p className="text-[1.15rem] leading-[1.7] text-[#5D625A]">
           I’m Chris. After hosting a podcast with over 150 episodes and writing
           an anthology mapping the raw journey of heavy life disruptions, I know
           exactly what it takes to mount a serious comeback when life pulls the
@@ -129,14 +129,13 @@ const menuItems = [
           play-it-small life.
         </p>
 
-        <p className="mt-6 text-[1.15rem] leading-[1.8] text-[#5D625A]">
+        <p className="mt-6 text-[1.15rem] leading-[1.7] text-[#5D625A]">
           My work is built for self-reliant outliers who took a massive hit.
-          Whether it&apos;s a career crash or a total identity shift, the individuals
-          I partner with refuse to let that crisis define them. We don&apos;t pretend
-          everything is okay, and we don&apos;t wait around for the &quot;right moment&quot;
-          to come along. We actively clear the aftermath, reclaim your raw drive,
-          and create an unshakable foundation for a life entirely on your terms.
-        </p>
+          Whether it's a career crash or a total identity shift, the individuals
+          I partner with refuse to let that crisis define them. We don't pretend
+          everything is okay, and we don't wait around for the right moment to come along. We actively clear the aftermath, reclaim your raw drive,
+          and create an unshakable foundation for a life on your terms.
+                </p>
 
         <Link
           href="/about"

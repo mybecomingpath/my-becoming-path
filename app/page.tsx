@@ -129,7 +129,7 @@ const menuItems = [
           play-it-small life.
         </p>
 
-        <p className="mt-6 text-[1.05rem] leading-[1.8] text-[#5D625A]">
+        <p className="mt-6 text-[1.15rem] leading-[1.8] text-[#5D625A]">
           My work is built for self-reliant outliers who took a massive hit.
           Whether it&apos;s a career crash or a total identity shift, the individuals
           I partner with refuse to let that crisis define them. We don&apos;t pretend

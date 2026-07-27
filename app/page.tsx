@@ -106,7 +106,7 @@ const menuItems = [
         THE UNTAMED REBUILDER
       </p>
 
-      <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
+      <h2 className="font-serif text-[3.2rem] leading-[1.08] tracking-tight md:text-[4rem]">
         I’m not here to help you manage the disruption that keeps you playing 
 small. I’m here to strip away the conditioning that holds you back 
 and help you build an unshakable foundation that lasts.

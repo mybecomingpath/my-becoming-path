@@ -44,13 +44,40 @@ const menuItems = [
   Leave the passive, play-it-small script behind. No more fluff. Just a strategic partnership to help you build a life of absolute fulfillment, freedom, and alignment.
 </p>
 
-            <div className="mt-9 flex max-w-[250px] flex-col gap-4">
-    <Link
-        href="/book"
-        className="inline-flex items-center justify-center gap-3 rounded-full border border-[#F3E6C...] px-8 py-4 text-[1.05rem] font-semibold"
-    >
-        I'm Ready to Rebuild <ArrowRight size={20} />
-    </Link>
+            <div className="mt-9 flex w-fit flex-col gap-4">
+  <Link
+    href="/book"
+    className="
+    group
+      inline-flex w-fit whitespace-nowrap
+      items-center justify-center gap-4
+      rounded-full
+      border border-white/70
+      bg-white/10
+      px-8 py-4
+      text-[1.05rem] font-semibold text-white
+      shadow-lg shadow-black/15
+      backdrop-blur-md
+      transition-all duration-300 ease-out
+      hover:-translate-y-1
+      hover:border-white
+      hover:bg-white/20
+      hover:shadow-xl hover:shadow-black/25
+      active:translate-y-0
+      active:scale-[0.97]
+      focus-visible:outline-none
+      focus-visible:ring-2
+      focus-visible:ring-white
+      focus-visible:ring-offset-2
+      focus-visible:ring-offset-transparent
+    "
+  >
+    <span>I&apos;m Ready to Rebuild</span>
+    <ArrowRight
+      size={20}
+      className="transition-transform duration-300 group-hover:translate-x-1"
+    />
+  </Link>
 </div>
           </div>
         </div>

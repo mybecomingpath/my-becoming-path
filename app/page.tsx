@@ -26,25 +26,27 @@ const menuItems = [
 
         <div className="relative z-10 flex min-h-[75vh] items-center px-7 md:min-h-[65vh] md:px-16">
           <div className="max-w-4xl text-white">
-            <p className="mb-7 ml-[2px] text-[0.78rem] font-medium uppercase tracking-[0.42em] text-[#E8E3D8]/85">
+            <p className="mb-7 ml-[2px] text-[0.82rem] font-bold uppercase tracking-[0.42em] text-white">
   A Message For The Outliers...
 </p>
 
-<h1 className="font-serif text-6xl leading-[0.95] tracking-tight md:text-7xl">
-  FOR THE UNTAMED WHO REFUSE TO CONFORM.
+<h1 className="font-serif text-5xl leading-[0.95] tracking-tight md:text-6xl">
+  FOR THE UNTAMED
+  <br />
+  WHO REFUSE TO CONFORM.
 </h1>
 
 <h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-4xl">
-  I partner with driven individuals to clear the aftermath of life disruption and build an unshakable foundation for their next evolution.
+  Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.
 </h2>
 
 <p className="mt-5 max-w-3xl text-[1.15rem] leading-[1.55] text-[#F2F4F1] font-normal">
-  Society expects you to play it small, settle, and quietly spin your wheels in the wreckage. This is where you leave that passive script behind. No hand-holding. No fluff. Just a strategic partnership to help you build a new reality you actually give a fuck about—built on fulfillment, freedom, and absolute alignment.
+  Leave the passive, play-it-small script behind. No more fluff. Just a strategic partnership to help you build a life of absolute fulfillment, freedom, and alignment.
 </p>
 
             <div className="mt-9 flex max-w-xs flex-col gap-4">
               <Link href="/book" className="flex items-center justify-center gap-3 rounded-full border border-[#F3E6CC]/30 bg-[#EFE0C3]/92 px-8 py-4 font-semibold text-[#26382F] shadow-xl backdrop-blur-md transition-all duration-300 hover:bg-[#F5E8D2] hover:scale-[1.02] hover:shadow-2xl focus:outline-none focus:ring-0">
-                BUILD YOUR UNSHAKEABLE FOUNDATION <ArrowRight size={18} />
+                Let's do this <ArrowRight size={18} />
               </Link>
 
             </div>

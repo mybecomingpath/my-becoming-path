@@ -49,7 +49,7 @@ const menuItems = [
         href="/book"
         className="inline-flex items-center justify-center gap-3 rounded-full border border-[#F3E6C...] px-8 py-4 text-[1.05rem] font-semibold"
     >
-        Let's do this <ArrowRight size={20} />
+        I'm Ready to Rebuild <ArrowRight size={20} />
     </Link>
 </div>
           </div>

@@ -34,7 +34,7 @@ const menuItems = [
 </h1>
 
 <h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-4xl">
-  Helping people rebuild after life changed everything.
+  I partner with self-reliant, driven individuals to clear the aftermath of life disruption and engineer an unshakable foundation for their next evolution.
 </h2>
 
 <p className="mt-5 max-w-3xl text-[1.15rem] leading-[1.55] text-[#F2F4F1] font-normal">

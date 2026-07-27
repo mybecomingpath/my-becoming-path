@@ -103,28 +103,34 @@ const menuItems = [
     <div className="max-w-[620px]">
 
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
-        MEET YOUR COACH
+        THE UNTAMED REBUILDER
       </p>
 
       <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
-        A grounded guide for rebuilding after life changed everything.
+        I’m not here to help you manage the disruption that keeps you playing 
+small. I’m here to strip away the conditioning that holds you back 
+and help you build an unshakable foundation that lasts.
       </h2>
 
       <p className="mt-8 text-[1.15rem] leading-[1.8] text-[#5D625A]">
 
-        Nice to meet you, I'm Chris.
-
-        I help people navigate major life disruption, identity shifts,
-        emotional overwhelm, and new beginnings through
-        grounded coaching, meaningful connection, and honest human support.
+        I’m Chris. After hosting a podcast with over 150 episodes and writing 
+an anthology mapping the raw journey of heavy life disruptions, I know 
+exactly what it takes to mount a serious comeback when life pulls the 
+rug out from under you. My coaching helps you process the past, accept 
+what was, and break free of the conditioning that led to a passive, 
+play-it-small life.
 
       </p>
 
       <p className="mt-6 text-[1.05rem] leading-[1.8] text-[#5D625A]">
 
-        My work blends lived experience, personal rebuilding,
-        professional growth, and a belief that becoming who you are
-        doesn't require pretending you're okay.
+        My work is built for self-reliant outliers who took a massive hit. 
+Whether it's a career crash or a total identity shift, the individuals 
+I partner with refuse to let that crisis define them. We don't pretend 
+everything is okay, and we don't wait around for the "right moment" to 
+come along. We actively clear the aftermath, reclaim your raw drive, 
+and create an unshakable foundation for a life entirely on your terms.
 
       </p>
 
@@ -132,7 +138,7 @@ const menuItems = [
   href="/about"
   className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#26382F] px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:scale-[1.02] hover:bg-[#1f2f28]"
 >
-  Learn More About Me →
+  See The 90-Day Framework →
 </Link>
 
     </div>

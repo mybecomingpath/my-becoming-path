@@ -100,7 +100,7 @@ const menuItems = [
 
     {/* TEXT COLUMN */}
 
-    <div className="max-w-[780px]">
+    <div className="max-w-[800px]">
 
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
         THE UNTAMED REBUILDER

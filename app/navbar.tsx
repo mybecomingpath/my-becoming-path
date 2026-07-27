@@ -79,7 +79,7 @@ useEffect(() => {
       }}
       onMouseLeave={() => setMenuOpen(false)}
     >
-      <div className="rounded-full border border-white/15 bg-[#628378] shadow-lg">
+      <div className="rounded-full border border-white/15 bg-[#1A1A1A]/95 shadow-lg backdrop-blur-md">
         <div className="flex items-center justify-between px-6 py-4">
           <Link
             href="/"

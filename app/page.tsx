@@ -20,6 +20,7 @@ const menuItems = [
   className="relative min-h-[75vh] bg-cover bg-center pt-28 md:pt-0"
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >
+        <div className="absolute inset-0 bg-black/25" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#10271f]/75 via-[#10271f]/35 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#10271f]/45 via-transparent to-transparent" />
 

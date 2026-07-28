@@ -195,9 +195,10 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
               <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
                 <Sunrise size={32} />
               </div>
-              <h3 className="font-serif text-2xl">From Stuck to Momentum</h3>
+              <h3 className="font-serif text-2xl">The Summit</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
-                Small intentional actions create momentum. We focus on building a path that feels aligned, sustainable, and authentically yours.
+                You break above the treeline. We conquer the internal battles that used to keep you safe and stagnant, locking in a permanent sense of internal strength and earned confidence.
+                From this peak, we map out a clear, aggressive 12-month blueprint for your next evolution.
               </p>
             </div>
           </div>

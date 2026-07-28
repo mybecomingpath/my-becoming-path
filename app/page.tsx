@@ -156,7 +156,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
           <div className="mx-auto mb-12 h-px max-w-6xl bg-[#26382F]/10" />
           <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
             
-            The UNTAMED REBUILDER TRAIL MAP
+            THE UNTAMED REBUILDER TRAIL MAP
           </h2>
 
           <h3 className="mt-5 text-center font-serif text-2xl text-[#26382F]">
@@ -164,8 +164,8 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
 </h3>
 
 <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-[#5D625A]">
-  It's about creating space to process what you're carrying, reconnect with yourself,
-  and move forward in a way that feels aligned with who you are now.
+  We don’t endlessly vent about the past or seek comfort in chaos. We embark on a new journey that moves beyond the aftermath of life disruption,
+  reclaims ownership over your life, and builds an unshakeable foundation for an inspiring new future.
 </p>
 
           <div className="mt-12 grid gap-8 lg:grid-cols-3">

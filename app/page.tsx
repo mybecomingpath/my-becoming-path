@@ -156,11 +156,11 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
           <div className="mx-auto mb-12 h-px max-w-6xl bg-[#26382F]/10" />
           <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
             
-            What we work through together
+            The UNTAMED REBUILDER TRAIL MAP
           </h2>
 
           <h3 className="mt-5 text-center font-serif text-2xl text-[#26382F]">
-  Coaching isn't about fixing you.
+  A 90 Day Expedition to Create Your Next Evolution
 </h3>
 
 <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-[#5D625A]">

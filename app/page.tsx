@@ -289,7 +289,7 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
         </div>
 
         <p className="leading-8 text-[#5D625A]">
-          "Chris helped me be kinder to myself, manage my emotions more effectively, and respond to situations with a more positive perspective. Every session gave me a safe space to be fully honest about what I was experiencing."
+          "Chris helped me manage my emotions more effectively, and respond to situations with a more positive perspective. Every session gave me space to be honest about what I was experiencing."
         </p>
 
         <p className="mt-6 font-semibold text-[#26382F]">
@@ -304,7 +304,8 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
         </div>
 
         <p className="leading-8 text-[#5D625A]">
-          "Chris helped me navigate my breakup, work stress, and social anxiety with greater clarity and confidence. His ability to challenge negative thinking and help me reframe situations made a real difference in my life."
+          "Chris helped me navigate my breakup, work stress, and social anxiety with greater clarity and confidence.
+          His ability to challenge negative thinking and help me reframe situations made a real difference in my life."
         </p>
 
         <p className="mt-6 font-semibold text-[#26382F]">
@@ -319,7 +320,8 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
         </div>
 
         <p className="leading-8 text-[#5D625A]">
-          "Chris's coaching helped me embrace my authentic self and become more confident as I stepped into new roles in my life. He helped me slow down, recognize my progress, and trust the process."
+          "Chris's coaching helped me embrace my authentic self and become more confident as I stepped into new 
+          roles in my life. He helped me slow down, recognize my progress, and trust the process."
         </p>
 
         <p className="mt-6 font-semibold text-[#26382F]">

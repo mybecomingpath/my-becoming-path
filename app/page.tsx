@@ -173,9 +173,10 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
               <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
                 <Mountain size={32} />
               </div>
-              <h3 className="font-serif text-2xl">From Survival to Stability</h3>
+              <h3 className="font-serif text-2xl">The Brush Bash</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
-                When you've been carrying too much for too long, it's hard to hear yourself think. Together we create space to breathe, process, and regain your footing.
+                We run a raw, unfiltered audit on the aftermath of your life disruption. We hack through the thick overgrowth of old societal scripts,
+                people-pleasing habits, and deep conditioning that kept you playing small
               </p>
             </div>
 
@@ -183,9 +184,10 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
               <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
                 <Leaf size={32} />
               </div>
-              <h3 className="font-serif text-2xl">From Confusion to Clarity</h3>
+              <h3 className="font-serif text-2xl">The Brutal Ascent</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
-                Life changes can leave you questioning who you are and where you're headed. We reconnect you with your values, strengths, and next steps.
+                This is the heavy lifting of the ascent. When the trail feels endless and old doubts creep up to pull you back, we recalibrate your mindset, change your internal language, and clear current obstacles.
+                We forge a strict operational code that protects your boundaries and commands your day.
               </p>
             </div>
 

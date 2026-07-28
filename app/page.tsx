@@ -280,10 +280,6 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
     <h2 className="max-w-3xl font-serif text-5xl leading-[1.08] text-[#26382F]">
 REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
 
-    <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
-      Every person featured here came to coaching during a season of transition, challenge, or growth. While their stories are different, they share a common desire: to reconnect with themselves, find clarity, and move forward with greater confidence.
-    </p>
-
     <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
       {/* CARD 1 */}

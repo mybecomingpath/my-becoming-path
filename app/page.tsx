@@ -163,7 +163,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
   Coaching isn't about fixing you.
 </h3>
 
-<p className="mx-automt-4 max-w-2xl text-lg leading-8 text-[#5D625A]">
+<p className="mx-automt-4 max-w-2xl text-center text-lg leading-8 text-[#5D625A]">
   It's about creating space to process what you're carrying, reconnect with yourself,
   and move forward in a way that feels aligned with who you are now.
 </p>

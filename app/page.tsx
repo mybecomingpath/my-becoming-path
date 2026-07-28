@@ -221,11 +221,11 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
   <div className="relative z-10 mx-auto grid max-w-7xl gap-14 px-7 py-24 md:px-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
     <div>
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-        THE EXPERIENCE
+        PROVEN GRIT
       </p>
 
      <h2 className="font-serif text-5xl leading-[1.08] drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]">
-        What it's like working together
+        Don't Call It A Comeback. We Own The Path Forward.
       </h2>
 
       <div className="mt-8 max-w-xl">

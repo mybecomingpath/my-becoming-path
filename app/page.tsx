@@ -1,6 +1,13 @@
 "use client";
 import { useState } from "react";
-import { ArrowRight, Headphones, Mountain, Leaf, Sunrise, Menu, X } from "lucide-react";
+import { ArrowRight,
+  Headphones,
+  Mountain,
+  TreePine,
+  Signpost,
+  Sunrise,
+  Menu,
+  X, } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {

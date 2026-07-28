@@ -164,8 +164,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
 </h3>
 
 <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-[#5D625A]">
-  We don’t endlessly vent about the past or seek comfort in chaos. We embark on a new journey that moves beyond the aftermath of life disruption,
-  reclaims ownership over your life, and builds an unshakeable foundation for an inspiring new future.
+  We don’t endlessly vent about the past or seek comfort in chaos. We execute a clear, step-by-step trail map to clear the aftermath of life disruption and build an unshakeable foundation for your next evolution.
 </p>
 
           <div className="mt-12 grid gap-8 lg:grid-cols-3">

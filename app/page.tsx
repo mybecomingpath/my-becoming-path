@@ -151,17 +151,19 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
   </div>
 </section>
 
-      <section className="bg-[#F4F1EA] px-7 pt-20 pb-24 md:px-16">
-        <div className="mx-auto max-w-7xl">
+      <section className="bg-[#F8F6F2] px-7 pt-10 pb-20 md:px-16">
+        <div className="mx-auto max-w-7xl text-center">
+          <div className="mx-auto mb-12 h-px max-w-6xl bg-[#26382F]/10" />
           <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
+            
             What we work through together
           </h2>
 
-          <h3 className="mt-5 font-serif text-2xl text-[#26382F]">
+          <h3 className="mt-5 text-center font-serif text-2xl text-[#26382F]">
   Coaching isn't about fixing you.
 </h3>
 
-<p className="mt-4 max-w-2xl text-lg leading-8 text-[#5D625A]">
+<p className="mx-automt-4 max-w-2xl text-lg leading-8 text-[#5D625A]">
   It's about creating space to process what you're carrying, reconnect with yourself,
   and move forward in a way that feels aligned with who you are now.
 </p>

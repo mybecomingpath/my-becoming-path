@@ -176,9 +176,9 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
 
           <div className="mt-12 grid gap-8 lg:grid-cols-3">
             <div className="rounded-3xl bg-white p-7 shadow-sm">
-              <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
-                <Mountain size={32} />
-              </div>
+              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
+  <TreePine size={32} />
+</div>
               <h3 className="font-serif text-2xl">The Brush Bash</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
                 We run a raw, unfiltered audit on the aftermath of your life disruption. We hack through the thick overgrowth of old societal scripts,
@@ -187,9 +187,9 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
             </div>
 
             <div className="rounded-3xl bg-white p-7 shadow-sm">
-              <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
-                <Leaf size={32} />
-              </div>
+              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
+  <Signpost size={32} />
+</div>
               <h3 className="font-serif text-2xl">The Switchbacks</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
                 This is the heavy lifting of the ascent. When the trail feels endless and old doubts creep up to pull you back, we recalibrate your mindset, change your internal language, and clear current obstacles.
@@ -198,9 +198,9 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
             </div>
 
             <div className="rounded-3xl bg-white p-7 shadow-sm">
-              <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
-                <Sunrise size={32} />
-              </div>
+              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
+  <Mountain size={32} />
+</div>
               <h3 className="font-serif text-2xl">The Summit</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
                 You break above the treeline. We conquer the internal battles that used to keep you safe and stagnant, locking in a permanent sense of internal strength and earned confidence.

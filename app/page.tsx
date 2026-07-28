@@ -225,14 +225,14 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
       </p>
 
      <h2 className="font-serif text-5xl leading-[1.08] drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]">
-        Don't Call It A Comeback. We Own The Path Forward.
+        Don't Call It A Comeback. 
+        <br />
+        We Own The Path Forward.
       </h2>
 
       <div className="mt-8 max-w-xl">
   <p className="text-xl leading-9 text-[#D8D0C5]">
-  A grounded, human approach to rebuilding your life after everything changed.
-  If you're navigating a major transition, identity shift, or season of rebuilding,
-  we can start with a conversation.
+  This framework didn’t come from a clinical vacuum or a safe textbook. I built it on front-line experience in the battle of heavy life disruptions, studying the exact patterns of how outliers bounce back when the path completely disappears.
 </p>
 
   <Link

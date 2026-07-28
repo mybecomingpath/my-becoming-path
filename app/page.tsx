@@ -246,33 +246,25 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
 
     <div className="space-y-10">
       <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">Grounded Conversations</h3>
+        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">150+ Outlier Audits</h3>
         <p className="mt-4 leading-8 text-[#F4F1EA]">
-          A supportive space to unpack what you're carrying and make sense of
-          what you're experiencing. No pressure. No pretending you're okay.
-          Simply being met with curiosity, compassion, and honesty.
+          As the host of The Empowered Grief Journey Podcast, I have recorded over 150 episodes interviewing, dissecting, and analyzing the raw turnarounds of individuals who faced total identity collapses, career crashes, and profound losses. I know what actually drives momentum, and what keeps you stagnant.
         </p>
       </div>
 
       <div className="pl-7">
         <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">
-          Reflection Meets Real-Life Action
+          The Outlier Collective
         </h3>
         <p className="mt-4 leading-8 text-[#F4F1EA]">
-          Insight matters — but so does what happens after the conversation ends.
-          We connect reflection with practical next steps, helping you move from
-          awareness into intentional action, grounded growth, and meaningful
-          forward movement in your real life.
+          I brought 23 distinct voices from around the world together to co-author a master anthology on navigating life’s heavy disruptions. This is a concentrated blueprint built from the collective intelligence of people who refused to conform to their wreckage.
         </p>
       </div>
 
       <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">Support Along the Way</h3>
+        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">The Zero-BS Partnership</h3>
         <p className="mt-4 leading-8 text-[#F4F1EA]">
-          Growth isn't linear, and rebuilding doesn't happen overnight. You don't
-          have to figure everything out alone. We create sustainable momentum,
-          grounded accountability, and space for you to move at a pace that feels
-          authentic to you.
+          We don’t spin in circles trying to manage your disruption or look for safety in the chaos. This space is a dedicated war-room for your life. We use real data, proven patterns, and a strict operational code to move you from the brush bash to your summit with momentum.
         </p>
       </div>
     </div>

@@ -121,12 +121,7 @@ const menuItems = [
       {/* COLUMN B: BODY TEXT */}
       <div className="max-w-[620px]">
         <p className="text-[1.15rem] leading-[1.7] text-[#5D625A]">
-          I’m Chris. After hosting a podcast with over 150 episodes and writing
-          an anthology mapping the raw journey of heavy life disruptions, I know
-          exactly what it takes to mount a serious comeback when life pulls the
-          rug out from under you. My coaching helps you process the past, accept
-          what was, and break free of the conditioning that led to a passive,
-          play-it-small life.
+          I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing an anthology about the raw journey of heavy life disruptions, I know exactly what it takes to mount a serious comeback when life implodes right in front of you. My coaching helps you process the past, accept what was, and break free of the conditioning that lead you to a passive play-it-small life.
         </p>
 
         <p className="mt-6 text-[1.15rem] leading-[1.7] text-[#5D625A]">

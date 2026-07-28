@@ -274,11 +274,11 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
   <div className="mx-auto max-w-7xl">
 
     <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
-      Client Reflections
+      Outlier Momentum
     </p>
 
     <h2 className="max-w-3xl font-serif text-5xl leading-[1.08] text-[#26382F]">
-Along the path back to yourself.    </h2>
+REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
 
     <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
       Every person featured here came to coaching during a season of transition, challenge, or growth. While their stories are different, they share a common desire: to reconnect with themselves, find clarity, and move forward with greater confidence.

@@ -239,7 +239,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
   href="/coaching"
   className="mt-8 inline-flex rounded-full border border-[#EFE0C3]/30 bg-[#EFE0C3]/92 px-8 py-4 font-semibold text-[#26382F] shadow-xl backdrop-blur"
 >
-  Explore Working Together →
+  Apply For The 90-Day Blueprint →
 </Link>
 </div>
     </div>

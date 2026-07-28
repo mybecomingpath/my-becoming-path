@@ -184,7 +184,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
               <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
                 <Leaf size={32} />
               </div>
-              <h3 className="font-serif text-2xl">The Brutal Ascent</h3>
+              <h3 className="font-serif text-2xl">The Switchbacks</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
                 This is the heavy lifting of the ascent. When the trail feels endless and old doubts creep up to pull you back, we recalibrate your mindset, change your internal language, and clear current obstacles.
                 We forge a strict operational code that protects your boundaries and commands your day.

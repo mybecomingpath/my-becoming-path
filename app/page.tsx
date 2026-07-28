@@ -99,7 +99,9 @@ const menuItems = [
         </span>
 
         <span className="mt-4 block">
-          It's time to strip away the conditioning that holds you back and build an unshakeable foundation.
+          It's time to strip away the conditioning that
+          <br />
+          holds you back and build an unshakeable foundation.
         </span>
       </h2>
     </div>

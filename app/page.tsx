@@ -390,18 +390,22 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
           <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
             <div>
               <h3 className="font-serif text-3xl text-[#26382F]">
-                My Becoming Path Community
+                The Empowered Grief Journey Podcast
               </h3>
 
               <p className="mt-2 font-semibold text-[#445146]">
-                Connection, accountability, and shared growth.
+                150+ Audits on Raw Resilience.
               </p>
 
               <p className="mt-4 leading-8 text-[#5D625A]">
-                A supportive community for people rebuilding after life's major
-                transitions. Connect with others walking their own becoming path
-                and find encouragement along the way.
+                Conversations dissecting the exact patterns of how driven individuals survive major identity collapses, professional crashes, and deep turbulence—and choose to mount a massive comeback on their own terms.
               </p>
+              <Link
+  href="/book"
+  className="mt-6 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-[#F4F1EA] shadow-lg transition-all duration-300 hover:scale-[1.02]"
+>
+  APPLY FOR 1:1 COACHING →
+</Link>
             </div>
 
             <span className="shrink-0 rounded-full bg-[#DDE2D5] px-4 py-2 text-sm font-semibold text-[#26382F]">

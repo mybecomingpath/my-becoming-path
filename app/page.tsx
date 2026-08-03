@@ -347,28 +347,26 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
     {/* Text Column */}
     <div>
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
-        WAYS TO WORK TOGETHER
+        THE NEXT ASCENT
       </p>
 
       <h2 className="max-w-3xl font-serif text-5xl leading-[1.08] text-[#26382F]">
-        Support for wherever you are on your path.
+        Stop Guessing. Start Rebuilding.
       </h2>
 
       <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
-        Whether you're navigating a major life transition, rebuilding after loss,
-        redefining your identity, or seeking greater clarity and confidence,
-        there are several ways to connect with My Becoming Path.
+        You don't need options. You need an execution strategy.I run a single, zero-BS partnership designed for outliers who are ready to break out of the stagnation loop. Below is how we engineer your turnaround.
       </p>
 
       <div className="mt-12 space-y-6">
         {/* Primary Offer */}
         <div className="rounded-3xl border border-[#26382F]/10 bg-white p-8 shadow-sm ring-2 ring-[#DDE2D5]">
           <p className="mb-3 text-[0.75rem] font-semibold uppercase tracking-[0.28em] text-[#445146]">
-            PRIMARY SUPPORT
+            The 90-Day Rebuild Blueprint
           </p>
 
           <h3 className="font-serif text-3xl text-[#26382F]">
-            One-on-One Coaching
+            1:1 Tactical Partnership for Outliers
           </h3>
 
           <p className="mt-2 font-semibold text-[#445146]">
@@ -376,16 +374,14 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
           </p>
 
           <p className="mt-4 leading-8 text-[#5D625A]">
-            Private coaching designed to help you reconnect with yourself,
-            navigate change with greater confidence, and create meaningful
-            forward movement aligned with who you're becoming.
+            A rigorous, 3-phase engineering container built to clear the aftermath of life disruption, destroy past conditioning, and establish an unshakeable foundation. No hand-holding. No fluff. Just alignment and aggressive forward momentum.
           </p>
 
           <Link
   href="/book"
   className="mt-6 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-[#F4F1EA] shadow-lg transition-all duration-300 hover:scale-[1.02]"
 >
-  Book a Clarity Call →
+  APPLY FOR 1:1 COACHING →
 </Link>
         </div>
 

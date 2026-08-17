@@ -393,15 +393,14 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
 <section className="bg-[#26382F] px-7 py-18 text-[#F4F1EA] md:px-16">
   <div className="mx-auto max-w-4xl text-center">
     <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-Your becoming path starts here    </p>
+THE EXPEDITION BEGINS NOW    </p>
 
     <h2 className="font-serif text-5xl leading-[1.08] md:text-6xl">
-      Let's Walk This Path Together.
+      STOP GUESSING. START REBUILDING.
     </h2>
 
     <p className="mx-auto mt-7 max-w-3xl text-lg leading-8 text-[#D8D0C5]">
-      If you're navigating a season of transition or rebuilding, we can
-      start with a simple conversation. You don't need to have everything figured out before taking the next step.
+      The trail ahead requires a clear blueprint, not endless wheel-spinning. If you are a self-reliant outlier done with playing small in the aftermath of a major life disruption, it is time to map your next evolution.
     </p>
 
     <Link

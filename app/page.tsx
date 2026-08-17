@@ -356,9 +356,8 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
       </h2>
 
       <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
-        You don't need options. You need an execution strategy. I run a single,
-        zero-BS partnership designed for outliers who are ready to break out of
-        the stagnation loop. Below is how we engineer your turnaround.
+        You don't need options. You need an execution strategy. This partnership is designed for 
+        outliers who are ready to break out of the stagnation loop and make a massive comeback. 
       </p>
 
       {/* PRIMARY OFFER */}

@@ -334,17 +334,18 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
   </div>
 </section>
 <section className="bg-[#F4F1EA] px-7 py-16 text-[#26382F] md:px-16">
-  
-    {/* Photo Column */}
+  <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+
+    {/* LEFT COLUMN — PHOTO */}
     <div>
       <img
-  src="/chris.jpg"
-  alt="Chris Mamone"
-  className="w-full h-[600px] rounded-[36px] object-cover object-top shadow-xl"
-/>
+        src="/chris.jpg"
+        alt="Chris Mamone"
+        className="w-full rounded-[36px] object-cover shadow-xl lg:h-[760px]"
+      />
     </div>
 
-    {/* Text Column */}
+    {/* RIGHT COLUMN — CONTENT */}
     <div>
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
         THE NEXT ASCENT
@@ -355,66 +356,62 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
       </h2>
 
       <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
-        You don't need options. You need an execution strategy.I run a single, zero-BS partnership designed for outliers who are ready to break out of the stagnation loop. Below is how we engineer your turnaround.
+        You don't need options. You need an execution strategy. I run a single,
+        zero-BS partnership designed for outliers who are ready to break out of
+        the stagnation loop. Below is how we engineer your turnaround.
       </p>
 
-      <div className="mt-12 space-y-6">
-        {/* Primary Offer */}
-        <div className="rounded-3xl border border-[#26382F]/10 bg-white p-8 shadow-sm ring-2 ring-[#DDE2D5]">
-          <p className="mb-3 text-[0.75rem] font-semibold uppercase tracking-[0.28em] text-[#445146]">
-            The 90-Day Rebuilding Framework
-          </p>
+      {/* PRIMARY OFFER */}
+      <div className="mt-12 rounded-[30px] border border-[#DDE2D5] bg-white p-8 shadow-sm ring-2 ring-[#DDE2D5]">
+        <p className="mb-4 text-[0.75rem] font-semibold uppercase tracking-[0.28em] text-[#445146]">
+          THE 90-DAY REBUILDING FRAMEWORK
+        </p>
 
-          <h3 className="font-serif text-3xl text-[#26382F]">
-            1:1 Strategic Partnership for Outliers
-          </h3>
+        <h3 className="font-serif text-3xl text-[#26382F]">
+          1:1 Strategic Partnership for Outliers
+        </h3>
 
-          <p className="mt-2 font-semibold text-[#445146]">
-            Personalized support to create your next evolution..
-          </p>
+        <p className="mt-2 font-semibold text-[#445146]">
+          Personalized support to create your next evolution.
+        </p>
 
-          <p className="mt-4 leading-8 text-[#5D625A]">
-            A rigorous, 3-phase rebuilding container to clear the aftermath of life
-  disruption, break past conditioning, and establish an unshakable
-  foundation. No fluff. Just alignment and forward momentum.
-          </p>
+        <p className="mt-6 leading-8 text-[#5D625A]">
+          A rigorous, 3-phase rebuilding container to clear the aftermath of
+          life disruption, break past conditioning, and establish an
+          unshakable foundation. No fluff. Just alignment and forward momentum.
+        </p>
 
-          <Link
-  href="/book"
-  className="mt-6 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-[#F4F1EA] shadow-lg transition-all duration-300 hover:scale-[1.02]"
->
-  I'm Ready to Rebuild
-</Link>
-        </div>
+        <Link
+          href="/book"
+          className="mt-8 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-white shadow-md transition hover:opacity-90"
+        >
+          I'M READY TO REBUILD →
+        </Link>
+      </div>
 
-        {/* Community Placeholder */}
-        <div className="rounded-3xl border border-[#26382F]/10 bg-white p-8 shadow-sm">
-          <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-            <div>
-              <h3 className="font-serif text-3xl text-[#26382F]">
-                The Empowered Grief Journey Podcast
-              </h3>
+      {/* PODCAST CARD */}
+      <div className="mt-6 rounded-[30px] border border-[#DDE2D5] bg-white p-8 shadow-sm">
+        <h3 className="font-serif text-3xl text-[#26382F]">
+          The Empowered Grief Journey Podcast
+        </h3>
 
-              <p className="mt-2 font-semibold text-[#445146]">
-                150+ Audits on Raw Resilience.
-              </p>
+        <p className="mt-2 font-semibold text-[#445146]">
+          150+ Audits on Raw Resilience.
+        </p>
 
-              <p className="mt-4 leading-8 text-[#5D625A]">
-                Conversations dissecting the exact patterns of how driven individuals survive major identity collapses, professional crashes, and deep turbulence—and choose to mount a massive comeback on their own terms.
-              </p>
-              <Link
-  href="/book"
-  className="mt-6 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-[#F4F1EA] shadow-lg transition-all duration-300 hover:scale-[1.02]"
->
-  LISTEN TO THE PODCAST →
-</Link>
-            </div>
+        <p className="mt-6 leading-8 text-[#5D625A]">
+          Conversations dissecting the exact patterns of how driven individuals
+          survive major identity collapses, professional crashes, and deep
+          turbulence—and choose to mount a massive comeback on their own terms.
+        </p>
 
-           
-          </div>
-        </div>
-
-        
+        <Link
+          href="/book"
+          className="mt-8 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-white shadow-md transition hover:opacity-90"
+        >
+          LISTEN TO THE PODCAST →
+        </Link>
+      </div>
     </div>
   </div>
 </section>

@@ -431,9 +431,7 @@ THE EXPEDITION BEGINS NOW    </p>
       <a href="#" className="transition hover:text-[#EFE0C3]">Coaching</a>
       <a href="#" className="transition hover:text-[#EFE0C3]">Contact</a>
     </nav>
-  </div>
-
-  <div className="mx-auto mt-5 max-w-7xl border-t border-[#F4F1EA]/10 pt-8 text-center">
+<div className="mx-auto mt-5 max-w-7xl border-t border-[#F4F1EA]/10 pt-8 text-center">
     <p>© 2026 My Becoming Path. All rights reserved.</p>
 
     <div className="flex justify-center gap-3 text-sm text-[#D8D0C5]">
@@ -441,6 +439,9 @@ THE EXPEDITION BEGINS NOW    </p>
   <a href="#">TikTok</a>
   <a href="#">Substack</a>
 </div>
+  </div>
+
+  
   </div>
 </footer>
   

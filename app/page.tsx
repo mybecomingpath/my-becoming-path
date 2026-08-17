@@ -100,13 +100,13 @@ const menuItems = [
 
       <h2 className="mx-auto max-w-5xl font-serif text-[1.9rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[2.1rem] lg:text-[2.25rem]">
         <span className="block">
-          I’m not here to help you manage the disruption
+          I’m not here to help you manage the 
           <br />
-          that keeps you playing small.
+          disruption that keeps you playing small.
         </span>
 
         <span className="mt-4 block">
-          It's time to strip away the conditioning that
+          It's time to remove the conditioning that
           <br />
           holds you back and build an unshakeable foundation.
         </span>
@@ -408,9 +408,7 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
 </Link>
             </div>
 
-            <span className="shrink-0 rounded-full bg-[#DDE2D5] px-4 py-2 text-sm font-semibold text-[#26382F]">
-              Coming Soon
-            </span>
+           
           </div>
         </div>
 

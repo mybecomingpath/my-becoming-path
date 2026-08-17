@@ -246,7 +246,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
 
     <div className="space-y-10">
       <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">150+ Outlier Audits</h3>
+        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">150+ Outlier Evolutions</h3>
         <p className="mt-4 leading-8 text-[#F4F1EA]">
           As the host of The Empowered Grief Journey Podcast, I have recorded over 150 episodes interviewing, dissecting, and analyzing the raw turnarounds of individuals who faced total identity collapses, career crashes, and profound losses. I know what actually drives momentum, and what keeps you stagnant.
         </p>
@@ -254,7 +254,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
 
       <div className="pl-7">
         <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">
-          The Outlier Collective
+          The Empowered Grief Journey
         </h3>
         <p className="mt-4 leading-8 text-[#F4F1EA]">
           I brought 23 distinct voices from around the world together to co-author a master anthology on navigating life’s heavy disruptions. This is a concentrated blueprint built from the collective intelligence of people who refused to conform to their wreckage.
@@ -262,7 +262,7 @@ I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing a
       </div>
 
       <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">The Zero-BS Partnership</h3>
+        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">The Strategic Partnership</h3>
         <p className="mt-4 leading-8 text-[#F4F1EA]">
           We don’t spin in circles trying to manage your disruption or look for safety in the chaos. This space is a dedicated war-room for your life. We use real data, proven patterns, and a strict operational code to move you from the brush bash to your summit with momentum.
         </p>

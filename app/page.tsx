@@ -396,7 +396,9 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
 THE EXPEDITION BEGINS NOW    </p>
 
     <h2 className="font-serif text-5xl leading-[1.08] md:text-6xl">
-      STOP GUESSING. START REBUILDING.
+      STOP GUESSING. 
+      <br />
+      START REBUILDING.
     </h2>
 
     <p className="mx-auto mt-7 max-w-3xl text-lg leading-8 text-[#D8D0C5]">

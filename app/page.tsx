@@ -383,7 +383,7 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
   href="/book"
   className="mt-6 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-[#F4F1EA] shadow-lg transition-all duration-300 hover:scale-[1.02]"
 >
-  APPLY FOR 1:1 COACHING →
+  I'm Ready to Rebuild
 </Link>
         </div>
 

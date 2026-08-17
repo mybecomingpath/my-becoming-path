@@ -128,10 +128,13 @@ const menuItems = [
       {/* COLUMN B: BODY TEXT */}
       <div className="max-w-[620px]">
         <p className="text-[1.15rem] leading-[1.7] text-[#5D625A]">
-I’m Chris Mamone, and after hosting a podcast with 150+ episodes and writing an anthology about the raw journey of heavy life disruptions, I know exactly what it takes to mount a serious comeback when life implodes right in front of you. My coaching helps you process the past, accept what was, and break free of the conditioning that lead you to a passive play-it-small life.        </p>
+I’m Chris Mamone, and I know exactly what it takes to mount a serious comeback when life implodes right in front of you. I’ve walked the raw journey of heavy life disruption—where chaos surrounds you and going back to normal isn’t an option.        </p>
 
         <p className="mt-6 text-[1.15rem] leading-[1.7] text-[#5D625A]">
-          My work is built for self-reliant outliers who took a massive hit. No matter the circumstance, the individuals I partner with refuse to let that crisis define them. We don’t pretend everything is okay or wait around for the right moment to come. We actively clear the aftermath, reclaim your inner drive, and create an unshakeable foundation for living a life on your terms.
+          My coaching is built for the self-reliant outlier who has taken a massive hit. No matter the circumstance, the individuals I partner with refuse to let that crisis define them. We don’t pretend everything is okay or wait around for the right moment to come.
+                </p>
+                <p className="mt-6 text-[1.15rem] leading-[1.7] text-[#5D625A]">
+          We actively clear the aftermath, reclaim your inner drive, and create an unshakeable foundation for your next evolution. Together, we process the past, accept what was, and break free from the conditioning that led you to where you are today.
                 </p>
 
         <Link

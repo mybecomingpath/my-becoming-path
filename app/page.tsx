@@ -362,19 +362,21 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
         {/* Primary Offer */}
         <div className="rounded-3xl border border-[#26382F]/10 bg-white p-8 shadow-sm ring-2 ring-[#DDE2D5]">
           <p className="mb-3 text-[0.75rem] font-semibold uppercase tracking-[0.28em] text-[#445146]">
-            The 90-Day Rebuild Blueprint
+            The 90-Day Rebuilding Framework
           </p>
 
           <h3 className="font-serif text-3xl text-[#26382F]">
-            1:1 Tactical Partnership for Outliers
+            1:1 Strategic Partnership for Outliers
           </h3>
 
           <p className="mt-2 font-semibold text-[#445146]">
-            Personalized support for life's transitions.
+            Personalized support to create your next evolution..
           </p>
 
           <p className="mt-4 leading-8 text-[#5D625A]">
-            A rigorous, 3-phase engineering container built to clear the aftermath of life disruption, destroy past conditioning, and establish an unshakeable foundation. No hand-holding. No fluff. Just alignment and aggressive forward momentum.
+            A rigorous, 3-phase rebuilding container to clear the aftermath of life
+  disruption, break past conditioning, and establish an unshakable
+  foundation. No fluff. Just alignment and forward momentum.
           </p>
 
           <Link

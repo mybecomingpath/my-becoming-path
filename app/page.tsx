@@ -413,35 +413,43 @@ THE EXPEDITION BEGINS NOW    </p>
 </Link>
   </div>
 </section>
-<footer className="bg-[#1f2f28] px-7 py-12 text-[#F4F1EA] md:px-16">
+<footer className="bg-[#1f2f28] px-7 py-10 text-[#F4F1EA] md:px-16">
   <div className="mx-auto max-w-7xl text-center">
-    <div>
-  <p className="text-sm font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-    CHRIS MAMONE | UNTAMED REBUILDING COACH
-  </p>
 
-  <p className="mt-1 text-[#D8D0C5]">
-    I help outliers clear the aftermath of life disruption and build an unshakeable foundation for their next evolution.
-  </p>
-</div>
+    <p className="text-sm font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
+      CHRIS MAMONE | UNTAMED REBUILDING COACH
+    </p>
 
-    <nav className="mt-3 flex flex-wrap justify-center gap-6 text-sm text-[#D8D0C5]">
-      <a href="#" className="transition hover:text-[#EFE0C3]">Home</a>
-      <a href="#" className="transition hover:text-[#EFE0C3]">About</a>
-      <a href="#" className="transition hover:text-[#EFE0C3]">Coaching</a>
-      <a href="#" className="transition hover:text-[#EFE0C3]">Contact</a>
+    <p className="mt-2 text-[#D8D0C5]">
+      I help outliers clear the aftermath of life disruption and build an
+      unshakable foundation for their next evolution.
+    </p>
+
+    <nav className="mt-4 flex flex-wrap justify-center gap-6 text-sm text-[#D8D0C5]">
+      <a href="/" className="transition hover:text-[#EFE0C3]">
+        Home
+      </a>
+      <a href="/about" className="transition hover:text-[#EFE0C3]">
+        About
+      </a>
+      <a href="/coaching" className="transition hover:text-[#EFE0C3]">
+        Coaching
+      </a>
+      <a href="/contact" className="transition hover:text-[#EFE0C3]">
+        Contact
+      </a>
     </nav>
-<div className="mx-auto mt-5 max-w-7xl border-t border-[#F4F1EA]/10 pt-8 text-center">
-    <p>© 2026 My Becoming Path. All rights reserved.</p>
 
-    <div className="flex justify-center gap-3 text-sm text-[#D8D0C5]">
-  <a href="#">Instagram</a>
-  <a href="#">TikTok</a>
-  <a href="#">Substack</a>
-</div>
-  </div>
+    <p className="mt-6 text-sm text-[#D8D0C5]">
+      © 2026 My Becoming Path. All rights reserved.
+    </p>
 
-  
+    <div className="mt-2 flex justify-center gap-4 text-sm text-[#D8D0C5]">
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">Substack</a>
+    </div>
+
   </div>
 </footer>
   

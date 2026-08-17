@@ -387,30 +387,6 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
           I'M READY TO REBUILD →
         </Link>
       </div>
-
-      {/* PODCAST CARD */}
-      <div className="mt-6 rounded-[30px] border border-[#DDE2D5] bg-white p-8 shadow-sm">
-        <h3 className="font-serif text-3xl text-[#26382F]">
-          The Empowered Grief Journey Podcast
-        </h3>
-
-        <p className="mt-2 font-semibold text-[#445146]">
-          150+ Audits on Raw Resilience.
-        </p>
-
-        <p className="mt-6 leading-8 text-[#5D625A]">
-          Conversations dissecting the exact patterns of how driven individuals
-          survive major identity collapses, professional crashes, and deep
-          turbulence—and choose to mount a massive comeback on their own terms.
-        </p>
-
-        <Link
-          href="/book"
-          className="mt-8 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-white shadow-md transition hover:opacity-90"
-        >
-          LISTEN TO THE PODCAST →
-        </Link>
-      </div>
     </div>
   </div>
 </section>

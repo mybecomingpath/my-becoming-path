@@ -407,7 +407,7 @@ THE EXPEDITION BEGINS NOW    </p>
   href="/book"
   className="mt-10 inline-flex rounded-full border border-[#EFE0C3]/30 bg-[#EFE0C3] px-9 py-4 font-semibold text-[#26382F]"
 >
-  Book a Free Clarity Call →
+  I'm Ready to Rebuild
 </Link>
   </div>
 </section>

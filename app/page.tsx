@@ -415,11 +415,11 @@ THE EXPEDITION BEGINS NOW    </p>
   <div className="mx-auto max-w-7xl text-center">
     <div>
   <p className="text-sm font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-    MY BECOMING PATH
+    CHRIS MAMONE | UNTAMED REBUILDING COACH
   </p>
 
   <p className="mt-1 text-[#D8D0C5]">
-    Helping people rebuild after life changed everything.
+    I help outliers clear the aftermath of life disruption and build an unshakeable foundation for their next evolution.
   </p>
 </div>
 

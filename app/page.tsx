@@ -334,7 +334,7 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
   </div>
 </section>
 <section className="bg-[#F4F1EA] px-7 py-16 text-[#26382F] md:px-16">
-  <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-[0.85fr_1.15fr] lg:items-stretch">
+  
     {/* Photo Column */}
     <div>
       <img

@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "My Becoming Path",
+export const metadata: Metadata = {
+  title: "Untamed Rebuilder",
   description:
-    "Helping people rebuild after life changed everything.",
+    "Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.",
   openGraph: {
-    title: "My Becoming Path",
+    title: "Untamed Rebuilder",
     description:
-      "Helping people rebuild after life changed everything.",
+      "Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.",
     images: ["/hero.jpg"],
   },
 };

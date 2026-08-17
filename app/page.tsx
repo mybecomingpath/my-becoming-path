@@ -340,7 +340,7 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
       <img
   src="/chris.jpg"
   alt="Chris Mamone"
-  className="sticky top-28 h-[940px] w-full rounded-[36px] object-cover shadow-xl"
+  className="w-full h-[600px] rounded-[36px] object-cover object-top shadow-xl"
 />
     </div>
 

@@ -65,7 +65,7 @@ export default function Navbar() {
         aria-label="Main navigation"
         className="relative mx-auto max-w-[1400px]"
       >
-        <div className="flex h-[72px] items-center justify-between rounded-[28px] border border-white/15 bg-[#26382f]/70 px-5 shadow-[0_12px_40px_rgba(0,0,0,0.25)] backdrop-blur-xl md:h-[80px] md:px-7">
+        <div className="flex h-[72px] items-center justify-between rounded-[28px] border border-white/15 bg-[#26382f]/55 backdrop-blur-xl px-5 shadow-[0_12px_40px_rgba(0,0,0,0.25)] md:h-[80px] md:px-7">
           <Link
             href="/"
             onClick={closeMenu}
@@ -92,7 +92,7 @@ export default function Navbar() {
 
         <div
           id="main-menu"
-          className={`absolute right-0 top-[82px] w-[min(280px,calc(100vw-24px))] origin-top-right rounded-[26px] border border-white/15 bg-[#26382f]/80 p-3 shadow-[0_18px_50px_rgba(0,0,0,0.3)] backdrop-blur-xl transition-all duration-200 md:top-[92px] ${
+          className={`absolute right-0 top-[82px] w-[min(280px,calc(100vw-24px))] origin-top-right rounded-[26px] border border-white/15 bg-[#26382f]/55 p-3 shadow-[0_18px_50px_rgba(0,0,0,0.3)] backdrop-blur-xl transition-all duration-200 md:top-[92px] ${
             menuOpen
               ? "visible translate-y-0 scale-100 opacity-100"
               : "invisible -translate-y-2 scale-95 opacity-0 pointer-events-none"
@@ -104,7 +104,7 @@ export default function Navbar() {
                 key={item.label}
                 href={item.href}
                 onClick={closeMenu}
-                className="rounded-2xl px-5 py-3.5 text-[1rem] text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus-visible:bg-white/10"
+                className="rounded-2xl px-5 py-3.5 text-[1rem] font-semibold text-white/90 transition-colors hover:bg-white/10 hover:text-white focus:outline-none focus-visible:bg-white/10"
               >
                 {item.label}
               </Link>

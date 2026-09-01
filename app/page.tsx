@@ -16,29 +16,42 @@ export default function Home() {
   className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:min-h-[56vh] md:pt-0"
   style={{ backgroundImage: "url('/hero.jpg')" }}
 >
-        <div className="absolute inset-0 bg-black/25" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#10271f]/75 via-[#10271f]/35 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#10271f]/45 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-black/5" />
 
         <div className="relative z-10 flex min-h-[60vh] translate-y-4 items-center px-7 md:min-h-[56vh] md:px-16">
-          <div className="max-w-4xl text-white">
+          <div className="relative max-w-4xl text-white">
+  <div
+    aria-hidden="true"
+    className="absolute -inset-x-8 -inset-y-7 -z-10 rounded-[40px] bg-[#0B211A]/55 blur-2xl md:-inset-x-10 md:-inset-y-9"
+  />
             <p className="mb-7 ml-[2px] text-[0.82rem] font-bold uppercase tracking-[0.42em] text-white">
   A Message For The Relentless...
 </p>
 
 <h1 className="font-serif text-5xl leading-[0.95] tracking-tight md:text-5xl">
-  FOR THE UNTAMED WHO ARE
+  FOR THE UNTAMED WHO 
   <br />
-  FORGED IN THE FIRE.
+  ARE FORGED IN THE FIRE.
 </h1>
 
 <h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-3xl">
-  Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.
+  Clear the aftermath of life disruption and build
+  <br />
+  an unshakable foundation for your next evolution.
 </h2>
 
-<p className="mt-5 max-w-3xl text-[1.15rem] leading-[1.55] text-[#F2F4F1] font-normal">
-  Stop playing small in a story you've already outgrown. This strategic partnership is designed
-  to clear the wreckage of the past and architect a life of absolute freedom and alignment.
+<p className="mt-5 max-w-4xl text-[1.15rem] font-normal leading-[1.55] text-[#F2F4F1]">
+  <span className="md:block">
+    Stop playing small in a story you&apos;ve already outgrown.
+  </span>
+
+  <span className="md:block">
+    This strategic partnership is designed to clear the wreckage of the past 
+  </span>
+
+  <span className="md:block">
+     and architect a life of absolute freedom and alignment.
+  </span>
 </p>
 
             <div className="mt-9">

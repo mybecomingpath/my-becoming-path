@@ -13,12 +13,12 @@ export default function Home() {
     <main className="min-h-screen bg-[#F4F1EA] text-[#26382F]">
      
       <section
-  className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:min-h-[56vh] md:pt-0"
+  className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:min-h-[55vh] md:pt-0"
   style={{ backgroundImage: "url('/hero.jpg')" }}
 >
         <div className="absolute inset-0 bg-black/5" />
 
-        <div className="relative z-10 flex min-h-[60vh] translate-y-4 items-center px-7 md:min-h-[56vh] md:px-16">
+        <div className="relative z-10 flex min-h-[60vh] translate-y-4 items-center px-6 md:min-h-[55vh] md:px-16">
           <div className="relative max-w-4xl text-white">
   <div
     aria-hidden="true"
@@ -83,38 +83,32 @@ export default function Home() {
   >
     <span>Claim Your Evolution Now</span>
 
-    <ArrowRight
-      aria-hidden="true"
-      size={20}
-      className="transition-transform duration-300 group-hover:translate-x-1"
-    />
+    
   </Link>
 </div>
           </div>
         </div>
       </section>
-<section className="bg-[#F4F1EA] px-7 py-20 md:px-16">
+<section className="bg-[#F4F1EA] px-7 py-10 md:px-16">
   <div className="mx-auto max-w-7xl">
 
     {/* ROW 1: FULL WIDTH */}
-    <div className="border-y border-[#26382F]/40 py-10 text-center">
+    <div className="border-y border-[#26382F]/40 py-8 text-center">
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
         THE UNTAMED REBUILDER
       </p>
 
-      <h2 className="mx-auto max-w-5xl font-serif text-[1.9rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[2.1rem] lg:text-[2.25rem]">
-        <span className="block">
-          I’m not here to help you manage the 
-          <br />
-          disruption that keeps you playing small.
-        </span>
+      <h2 className="mx-auto max-w-5xl font-serif text-[1.9rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[1.75rem]">
+  <span className="block">
+    I’m not here to help you tolerate the disruptions keeping you small.
+  </span>
 
-        <span className="mt-4 block">
-          It's time to remove the conditioning that holds
-          <br />
-          you back and build an unshakeable foundation.
-        </span>
-      </h2>
+  <span className="mt-5 block">
+    Together, we will clear the aftermath of the fire, break the conditioning
+    holding you back, and build an unshakable foundation for your next
+    evolution.
+  </span>
+</h2>
     </div>
 
     {/* ROW 2: TWO COLUMNS */}

@@ -111,51 +111,78 @@ export default function Home() {
 </h2>
     </div>
 
-    {/* ROW 2: TWO COLUMNS */}
-    <div className="mx-auto grid max-w-6xl gap-8 py-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-12">
+    {/* ROW 2: COACH INTRODUCTION */}
+<div className="mx-auto grid max-w-6xl gap-10 py-10 lg:grid-cols-[0.9fr_1.0fr] lg:items-stretch lg:gap-14">
+  {/* COLUMN A: PHOTO */}
+  <div className="h-[500px] lg:h-auto">
+    <img
+      src="/chris.jpg"
+      alt="Chris Mamone"
+      className="h-full w-full rounded-[36px] object-cover object-center shadow-lg shadow-[#26382F]/10"
+    />
+  </div>
 
-      {/* COLUMN A: PHOTO */}
-      <div className="flex justify-center lg:justify-end">
-        <img
-          src="/chris.jpg"
-          alt="Chris Mamone"
-          className="h-[520px] w-full max-w-[430px] rounded-[36px] object-cover shadow-lg shadow-[#26382F]/10"
-        />
-      </div>
+  {/* COLUMN B: INTRODUCTION */}
+  <div className="flex max-w-[660px] flex-col justify-center">
+    <p className="text-[0.82rem] font-bold uppercase tracking-[0.38em] text-[#445146]">
+      Your Strategic Partner
+    </p>
 
-      {/* COLUMN B: BODY TEXT */}
-      <div className="max-w-[620px]">
-        <p className="text-[1.15rem] leading-[1.7] text-[#5D625A]">
-I’m Chris Mamone, and I know exactly what it takes to mount a serious comeback when life implodes right in front of you. I’ve walked the raw journey of heavy life disruption—where chaos surrounds you and going back to normal isn’t an option.        </p>
+    <h2 className="mt-4 font-serif text-[2.3rem] leading-[1.05] tracking-tight text-[#26382F] md:text-[2.8rem]">
+      Real life experience.
+    </h2>
 
-        <p className="mt-6 text-[1.15rem] leading-[1.7] text-[#5D625A]">
-          My coaching is built for the self-reliant outlier who has taken a massive hit. No matter the circumstance, the individuals I partner with refuse to let that crisis define them. We don’t pretend everything is okay or wait around for the right moment to come.
-                </p>
-                <p className="mt-6 text-[1.15rem] leading-[1.7] text-[#5D625A]">
-          We actively clear the aftermath, reclaim your inner drive, and create an unshakeable foundation for your next evolution. Together, we process the past, accept what was, and break free from the conditioning that led you to where you are today.
-                </p>
+    <div className="mt-7 space-y-6 text-[1.1rem] leading-[1.75] text-[#5D625A]">
+      <p>
+        I’m Chris Mamone, and I know exactly what serious life disruption feels like. The moment 
+        where the life you live and the future you planned for suddenly disappear, and going back to "normal" 
+        is no longer an option. {}
+        </p>
 
-        <Link
-          href="/about"
-          className="
-            mt-10 inline-flex items-center gap-3
-            rounded-full bg-[#26382F]
-            px-8 py-4
-            font-semibold text-white
-            shadow-lg shadow-black/10
-            transition-all duration-300
-            hover:-translate-y-1
-            hover:bg-[#1A1A1A]
-            hover:shadow-xl
-            active:translate-y-0
-            active:scale-[0.97]
-          "
-        >
-          See The 90-Day Framework
-          <ArrowRight size={18} />
-        </Link>
-      </div>
+      <p> <strong className="font-semibold text-[#26382F]">
+        This framework didn't come from courses and textbooks. It was created after years of experience
+        having my own life burnt to the ground more than once.
+        </strong></p>
+
+      <p>
+        I’ve walked through the fire of sudden loss, unexpected upheaval, and the complete collapse of identity.
+        Rebuilding demanded far more than simple resilience. It required me to face the wreckage of my own journey, 
+        break the conditioning that held me captive to my past, and become the sole architect of what came next.
+      </p>
+
+      <p>
+        That lived experience shapes every partnership. I walk beside you with uncompromising truth, execution, and deep
+        respect for what this moment demands of you. I meet you exactly where you are, with zero judgment, 
+        focused entirely on who you are becoming. You bring the raw truth of your current reality. I bring the strategy, 
+        framework, and structure to clear the aftermath and build an unshakeable foundation.        
+           
+      </p>
     </div>
+
+    <Link
+      href="/about"
+      className="
+        group
+        mt-9
+        inline-flex w-fit items-center gap-3
+        rounded-full
+        bg-[#26382F]
+        px-8 py-4
+        font-semibold text-white
+        shadow-lg shadow-black/10
+        transition-all duration-300
+        hover:-translate-y-1
+        hover:bg-[#1A1A1A]
+        hover:shadow-xl
+        active:translate-y-0
+        active:scale-[0.97]
+      "
+    >
+      <span>See The Evolution Blueprint </span>
+      
+    </Link>
+  </div>
+</div>
   </div>
 </section>
 

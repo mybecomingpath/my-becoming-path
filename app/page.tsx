@@ -1,25 +1,14 @@
-"use client";
-import { useState } from "react";
 import { ArrowRight,
   Headphones,
   Mountain,
   TreePine,
   Signpost,
   Sunrise,
-  Menu,
-  X, } from "lucide-react";
+}from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-const menuItems = [
-  "Home",
-  "About Me",
-  "Coaching",
-  "Contact",
-  "Follow On Social Media",
-];
+  
   return (
     <main className="min-h-screen bg-[#F4F1EA] text-[#26382F]">
      

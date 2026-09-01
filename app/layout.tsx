@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Untamed Rebuilder",
+  title: "The Untamed Rebuilder",
   description:
     "Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.",
   openGraph: {
-    title: "Untamed Rebuilder",
+    title: "The Untamed Rebuilder",
     description:
       "Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.",
     images: ["/hero.jpg"],

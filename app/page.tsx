@@ -37,7 +37,8 @@ export default function Home() {
 </h2>
 
 <p className="mt-5 max-w-3xl text-[1.15rem] leading-[1.55] text-[#F2F4F1] font-normal">
-  Leave the passive, play-it-small script behind. No more fluff. Just a strategic partnership to help you build a life of absolute fulfillment, freedom, and alignment.
+  Stop playing small in a story you've already outgrown. This strategic partnership is designed
+  to clear the wreckage of the past and architect a life of absolute freedom and alignment.
 </p>
 
             <div className="mt-9 flex w-fit flex-col gap-4">

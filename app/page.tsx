@@ -23,13 +23,13 @@ export default function Home() {
         <div className="relative z-10 flex min-h-[60vh] translate-y-4 items-center px-7 md:min-h-[56vh] md:px-16">
           <div className="max-w-4xl text-white">
             <p className="mb-7 ml-[2px] text-[0.82rem] font-bold uppercase tracking-[0.42em] text-white">
-  A Message For The Outliers...
+  A Message For The Relentless...
 </p>
 
 <h1 className="font-serif text-5xl leading-[0.95] tracking-tight md:text-6xl">
-  FOR THE UNTAMED
+  FOR THE UNTAMED WHO ARE
   <br />
-  WHO REFUSE TO CONFORM.
+  FORGED IN THE FIRE.
 </h1>
 
 <h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-4xl">

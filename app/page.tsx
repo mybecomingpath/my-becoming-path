@@ -13,9 +13,9 @@ export default function Home() {
     <main className="min-h-screen bg-[#F4F1EA] text-[#26382F]">
      
       <section
-  className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:pt-0"
-        style={{ backgroundImage: "url('/hero.jpg')" }}
-      >
+  className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:min-h-[56vh] md:pt-0"
+  style={{ backgroundImage: "url('/hero.jpg')" }}
+>
         <div className="absolute inset-0 bg-black/25" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#10271f]/75 via-[#10271f]/35 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#10271f]/45 via-transparent to-transparent" />
@@ -26,13 +26,13 @@ export default function Home() {
   A Message For The Relentless...
 </p>
 
-<h1 className="font-serif text-5xl leading-[0.95] tracking-tight md:text-6xl">
+<h1 className="font-serif text-5xl leading-[0.95] tracking-tight md:text-5xl">
   FOR THE UNTAMED WHO ARE
   <br />
   FORGED IN THE FIRE.
 </h1>
 
-<h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-4xl">
+<h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-3xl">
   Clear the aftermath of life disruption and build an unshakable foundation for your next evolution.
 </h2>
 
@@ -41,13 +41,12 @@ export default function Home() {
   to clear the wreckage of the past and architect a life of absolute freedom and alignment.
 </p>
 
-            <div className="mt-9 flex w-fit flex-col gap-4">
+            <div className="mt-9">
   <Link
     href="/book"
     className="
-    group
-      inline-flex w-fit whitespace-nowrap
-      items-center justify-center gap-4
+      group
+      inline-flex items-center justify-center gap-4
       rounded-full
       border border-white/70
       bg-white/10
@@ -69,8 +68,10 @@ export default function Home() {
       focus-visible:ring-offset-transparent
     "
   >
-    <span>I&apos;m Ready to Rebuild</span>
+    <span>Claim Your Evolution Now</span>
+
     <ArrowRight
+      aria-hidden="true"
       size={20}
       className="transition-transform duration-300 group-hover:translate-x-1"
     />

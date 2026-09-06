@@ -1,14 +1,10 @@
-import { ArrowRight,
-  Headphones,
+import {
   Mountain,
   TreePine,
   Signpost,
-  Sunrise,
-}from "lucide-react";
+} from "lucide-react";
 import Link from "next/link";
-
-export default function Home() {
-  
+export default function Home() {  
   return (
     <main className="min-h-screen bg-[#F4F1EA] text-[#26382F]">
      
@@ -28,19 +24,18 @@ export default function Home() {
   A Message For The Relentless...
 </p>
 
-<h1 className="font-serif text-5xl leading-[0.95] tracking-tight md:text-5xl">
+<h1 className="font-serif leading-[0.95] tracking-tight md:text-5xl">
   FOR THE UNTAMED WHO 
   <br />
   ARE FORGED IN THE FIRE.
 </h1>
-
 <h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-3xl">
   Clear the aftermath of life disruption and build
   <br />
   an unshakable foundation for your next evolution.
 </h2>
 
-<p className="mt-5 max-w-4xl text-[1.15rem] font-normal leading-[1.55] text-[#F2F4F1]">
+<p className="mt-5 max-w-4xl text-[1.15rem] leading-[1.55] text-[#F2F4F1]">
   <span className="md:block">
     Stop playing small in a story you&apos;ve already outgrown.
   </span>
@@ -53,7 +48,6 @@ export default function Home() {
      and architect a life of absolute freedom and alignment.
   </span>
 </p>
-
             <div className="mt-9">
   <Link
     href="/book"
@@ -81,9 +75,7 @@ export default function Home() {
       focus-visible:ring-offset-transparent
     "
   >
-    <span>Claim Your Evolution Now</span>
-
-    
+    <span>Claim Your Evolution Now</span>    
   </Link>
 </div>
           </div>
@@ -91,7 +83,6 @@ export default function Home() {
       </section>
 <section className="bg-[#F4F1EA] px-7 py-10 md:px-16">
   <div className="mx-auto max-w-7xl">
-
     {/* ROW 1: FULL WIDTH */}
     <div className="border-y border-[#26382F]/40 py-8 text-center">
       <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
@@ -102,7 +93,6 @@ export default function Home() {
   <span className="block">
     I’m not here to help you tolerate the disruptions keeping you small.
   </span>
-
   <span className="mt-5 block">
     Together, we will clear the aftermath of the fire, break the conditioning
     holding you back, and build an unshakable foundation for your next
@@ -110,7 +100,6 @@ export default function Home() {
   </span>
 </h2>
     </div>
-
     {/* ROW 2: COACH INTRODUCTION */}
 <div className="mx-auto grid max-w-6xl gap-10 py-10 lg:grid-cols-[0.9fr_1.0fr] lg:items-stretch lg:gap-14">
   {/* COLUMN A: PHOTO */}
@@ -136,7 +125,7 @@ export default function Home() {
       <p>
         I’m Chris Mamone, and I know exactly what serious life disruption feels like. The moment 
         where the life you live and the future you planned for suddenly disappear, and going back to "normal" 
-        is no longer an option. {}
+        is no longer an option.
         </p>
 
       <p> <strong className="font-semibold text-[#26382F]">
@@ -160,38 +149,46 @@ export default function Home() {
     </div>
 
     <Link
-      href="/about"
-      className="
-        group
-        mt-9
-        inline-flex w-fit items-center gap-3
-        rounded-full
-        bg-[#26382F]
-        px-8 py-4
-        font-semibold text-white
-        shadow-lg shadow-black/10
-        transition-all duration-300
-        hover:-translate-y-1
-        hover:bg-[#1A1A1A]
-        hover:shadow-xl
-        active:translate-y-0
-        active:scale-[0.97]
-      "
-    >
-      <span>Explore The Evolution Blueprint </span>
-      
-    </Link>
+  href="/coaching"
+  className="
+    group
+    mt-9
+    inline-flex
+    w-fit
+    self-start
+    items-center
+    justify-center
+    whitespace-nowrap
+    rounded-full
+    bg-[#26382F]
+    px-8
+    py-4
+    font-semibold
+    text-white
+    shadow-lg
+    shadow-black/10
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:bg-[#1A1A1A]
+    hover:shadow-xl
+    active:translate-y-0
+    active:scale-[0.97]
+  "
+>
+  Explore The Evolution Blueprint
+</Link>
   </div>
 </div>
   </div>
 </section>
 
-      <section className="bg-[#E7EBE4] px-7 py-20 md:px-16 md:py-16">
+      <section className="bg-[var(--brand-sage)] px-7 py-20 md:px-16 md:py-14">
         <div className="mx-auto max-w-7xl text-center">
           
           <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
             
-            THE RECKONING EVOLUTION
+            YOUR EVOLUTION
           </h2>
 
           <h3 className="mt-5 text-center font-serif text-2xl text-[#26382F]">
@@ -261,9 +258,7 @@ The wreckage is gone and your unshakeable foundation is locked in. No more looki
       focus-visible:ring-offset-[#E7EBE4]
     "
   >
-    <span>Claim My Evolution Now</span>
-
-    
+    <span>Claim My Evolution Now</span>    
   </Link>
 
   <p className="mt-4 text-[0.9rem] font-medium tracking-[0.01em] text-[#5D625A]">
@@ -271,26 +266,18 @@ The wreckage is gone and your unshakeable foundation is locked in. No more looki
   </p>
 </div>
         </div>
-      </section>
-      <section className="relative overflow-hidden bg-[#26382F] text-[#F4F1EA]">
-  <div
-  className="absolute left-0 top-0 hidden h-full w-[46%] bg-cover bg-center bg-no-repeat lg:block"
-    style={{ backgroundImage: "url('/experience-bg.jpg')" }}
-  />
-
-  <div className="absolute left-0 top-0 h-full w-[46%] bg-black/60" />
-
-  
-</section>
-<section className="bg-[#F4F1EA] px-7 py-24 md:px-16">
+      </section>      
+<section className="bg-[#F4F1EA] px-7 py-16 md:px-16">
   <div className="mx-auto max-w-7xl">
+    <div className="mx-auto max-w-3xl text-center">
+  <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
+    Untamed Rebuilders
+  </p>
 
-    <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
-      Outlier Momentum
-    </p>
-
-    <h2 className="max-w-3xl font-serif text-5xl leading-[1.08] text-[#26382F]">
-REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
+  <h2 className="font-serif text-4xl leading-[1.08] text-[#26382F] md:text-5xl">
+    Real People. Real Evolution.
+  </h2>
+</div>
 
     <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
@@ -314,77 +301,30 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
         <div className="mb-5 text-[#C7A95A]">
           ★★★★★
         </div>
-
         <p className="leading-8 text-[#5D625A]">
           "Chris helped me navigate my breakup, work stress, and social anxiety with greater clarity and confidence.
           His ability to challenge negative thinking and help me reframe situations made a real difference in my life."
         </p>
-
         <p className="mt-6 font-semibold text-[#26382F]">
           — Ashley
         </p>
       </div>
-
       {/* CARD 3 */}
       <div className="rounded-3xl bg-white p-8 shadow-sm">
         <div className="mb-5 text-[#C7A95A]">
           ★★★★★
         </div>
-
         <p className="leading-8 text-[#5D625A]">
           "Chris's coaching helped me embrace my authentic self and become more confident as I stepped into new 
           roles in my life. He helped me slow down, recognize my progress, and trust the process."
         </p>
-
         <p className="mt-6 font-semibold text-[#26382F]">
           — Lidia
         </p>
       </div>
-
     </div>
-
   </div>
 </section>
-
-
-<footer className="bg-[#1f2f28] px-7 py-10 text-[#F4F1EA] md:px-16">
-  <div className="mx-auto max-w-7xl text-center">
-
-    <p className="text-sm font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-      CHRIS MAMONE | UNTAMED REBUILDING COACH
-    </p>
-
-    <p className="mt-2 text-[#D8D0C5]">
-      I help outliers clear the aftermath of life disruption and build an
-      unshakable foundation for their next evolution.
-    </p>
-
-    <nav className="mt-4 flex flex-wrap justify-center gap-6 text-sm text-[#D8D0C5]">
-      <a href="/" className="transition hover:text-[#EFE0C3]">
-        Home
-      </a>
-      <a href="/about" className="transition hover:text-[#EFE0C3]">
-        About
-      </a>
-      <a href="/coaching" className="transition hover:text-[#EFE0C3]">
-        Coaching
-      </a>
-      <a href="/contact" className="transition hover:text-[#EFE0C3]">
-        Contact
-      </a>
-    </nav>
-
-    <p className="mt-6 text-sm text-[#D8D0C5]">
-      © 2026 My Becoming Path. All rights reserved.
-    </p>
-
-    <div className="mt-2 flex justify-center gap-4 text-sm text-[#D8D0C5]">
-      <a href="#">Instagram</a>
-      <a href="#">TikTok</a>
-      <a href="#">Substack</a>
-    </div>
-  </div>
-</footer>
   </main>
 );
 }

@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+:root {
+  --brand-forest: #26382f;
+  --brand-footer: #40585b;
+  --brand-cream: #f4f1ea;
+  --brand-sage: #e4e9e2;
+  --brand-card: #fffdf9;
+  --brand-copy: #5d625a;
+  --brand-gold: #c7a34b;
+}

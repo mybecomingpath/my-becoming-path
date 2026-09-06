@@ -178,7 +178,7 @@ export default function Home() {
         active:scale-[0.97]
       "
     >
-      <span>See The Evolution Blueprint </span>
+      <span>Explore The Evolution Blueprint </span>
       
     </Link>
   </div>
@@ -186,20 +186,24 @@ export default function Home() {
   </div>
 </section>
 
-      <section className="bg-[#F8F6F2] px-7 pt-10 pb-20 md:px-16">
+      <section className="bg-[#E7EBE4] px-7 py-20 md:px-16 md:py-16">
         <div className="mx-auto max-w-7xl text-center">
-          <div className="mx-auto mb-12 h-px max-w-6xl bg-[#26382F]/10" />
+          
           <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
             
-            THE UNTAMED REBUILDER TRAIL MAP
+            THE RECKONING EVOLUTION
           </h2>
 
           <h3 className="mt-5 text-center font-serif text-2xl text-[#26382F]">
-  A 90 Day Expedition to Create Your Next Evolution
+          The 90-Day Catalyst to Reclaim Your Edge
 </h3>
 
 <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-[#5D625A]">
-  We don’t endlessly vent about the past or seek comfort in chaos. We execute a clear, step-by-step trail map to clear the aftermath of life disruption and build an unshakeable foundation for your next evolution.
+  Going back to "normal" is a trap. We don’t manage your life disruption—we transform it.
+  This is where old habits and the illusions of the past come to an end. Together, we clear the 
+  obstacles keeping you small and stagnant to forge a foundation of unshakeable inner strength. 
+  The old path is dead. No more tolerating a life you've outgrown. No more looking back at what was. 
+  It is time to look forward, claim your edge, and forge your future evolution.
 </p>
 
           <div className="mt-12 grid gap-8 lg:grid-cols-3">
@@ -207,10 +211,10 @@ export default function Home() {
               <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
   <TreePine size={32} />
 </div>
-              <h3 className="font-serif text-2xl">The Brush Bash</h3>
+              <h3 className="font-serif text-2xl">Clear The Aftermath</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
-                We run a raw, unfiltered audit on the aftermath of your life disruption. We hack through the thick overgrowth of old societal scripts,
-                people-pleasing habits, and deep conditioning that kept you playing small
+                We run a raw, unfiltered audit on the aftermath of life disruption. The old habits and deep conditioning 
+                keeping you stagnant and small come to an end—transformed here into raw power for your future foundation.
               </p>
             </div>
 
@@ -218,10 +222,9 @@ export default function Home() {
               <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
   <Signpost size={32} />
 </div>
-              <h3 className="font-serif text-2xl">The Switchbacks</h3>
+              <h3 className="font-serif text-2xl">Forge The Foundation</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
-                This is the heavy lifting of the ascent. When the trail feels endless and old doubts creep up to pull you back, we recalibrate your mindset, change your internal language, and clear current obstacles.
-                We forge a strict operational code that protects your boundaries and commands your day.
+                When old conditioning creeps up to drag you backward, we recalibrate your mindset, rewrite your internal language, and immediately clear the obstacles, forging ahead to protect your boundaries and drive you forward with relentless momentum.
               </p>
             </div>
 
@@ -229,13 +232,44 @@ export default function Home() {
               <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
   <Mountain size={32} />
 </div>
-              <h3 className="font-serif text-2xl">The Summit</h3>
+              <h3 className="font-serif text-2xl">Claim Your Evolution</h3>
               <p className="mt-3 leading-7 text-[#5D625A]">
-                You break above the treeline. We conquer the internal battles that used to keep you safe and stagnant, locking in a permanent sense of internal strength and earned confidence.
-                From this peak, we map out a clear, aggressive 12-month blueprint for your next evolution.
-              </p>
+The wreckage is gone and your unshakeable foundation is locked in. No more looking back—the horizon is directly in front of us. This is your new beginning: a calculated execution to chase your highest goals, lock in your purpose, and actively build life on your terms. This is your evolution.              </p>
             </div>
           </div>
+          <div className="mt-12 flex flex-col items-center text-center">
+  <Link
+    href="/contact"
+    className="
+      group
+      inline-flex items-center justify-center gap-3
+      rounded-full
+      bg-[#26382F]
+      px-9 py-4
+      text-[1.05rem] font-semibold text-white
+      shadow-lg shadow-black/10
+      transition-all duration-300 ease-out
+      hover:-translate-y-1
+      hover:bg-[#1A1A1A]
+      hover:shadow-xl hover:shadow-black/20
+      active:translate-y-0
+      active:scale-[0.97]
+      focus-visible:outline-none
+      focus-visible:ring-2
+      focus-visible:ring-[#26382F]
+      focus-visible:ring-offset-2
+      focus-visible:ring-offset-[#E7EBE4]
+    "
+  >
+    <span>Claim My Evolution Now</span>
+
+    
+  </Link>
+
+  <p className="mt-4 text-[0.9rem] font-medium tracking-[0.01em] text-[#5D625A]">
+    Apply for the 90-Day Catalyst Framework. Limited proximity slots available.
+  </p>
+</div>
         </div>
       </section>
       <section className="relative overflow-hidden bg-[#26382F] text-[#F4F1EA]">
@@ -246,57 +280,7 @@ export default function Home() {
 
   <div className="absolute left-0 top-0 h-full w-[46%] bg-black/60" />
 
-  <div className="relative z-10 mx-auto grid max-w-7xl gap-14 px-7 py-24 md:px-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-    <div>
-      <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-        PROVEN GRIT
-      </p>
-
-     <h2 className="font-serif text-5xl leading-[1.08] drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]">
-        Don't Call It A Comeback. 
-        <br />
-        We Own The Path Forward.
-      </h2>
-
-      <div className="mt-8 max-w-xl">
-  <p className="text-xl leading-9 text-[#D8D0C5]">
-  This framework didn’t come from a clinical vacuum or a safe textbook. I built it on front-line experience in the battle of heavy life disruptions, studying the exact patterns of how outliers bounce back when the path completely disappears.
-</p>
-
-  <Link
-  href="/coaching"
-  className="mt-8 inline-flex rounded-full border border-[#EFE0C3]/30 bg-[#EFE0C3]/92 px-8 py-4 font-semibold text-[#26382F] shadow-xl backdrop-blur"
->
-  Apply For The 90-Day Blueprint →
-</Link>
-</div>
-    </div>
-
-    <div className="space-y-10">
-      <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">150+ Outlier Evolutions</h3>
-        <p className="mt-4 leading-8 text-[#F4F1EA]">
-          As the host of The Empowered Grief Journey Podcast, I have recorded over 150 episodes interviewing, dissecting, and analyzing the raw turnarounds of individuals who faced total identity collapses, career crashes, and profound losses. I know what actually drives momentum, and what keeps you stagnant.
-        </p>
-      </div>
-
-      <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">
-          The Empowered Grief Journey
-        </h3>
-        <p className="mt-4 leading-8 text-[#F4F1EA]">
-          I brought 23 distinct voices from around the world together to co-author a master anthology on navigating life’s heavy disruptions. This is a concentrated blueprint built from the collective intelligence of people who refused to conform to their wreckage.
-        </p>
-      </div>
-
-      <div className="pl-7">
-        <h3 className="font-serif text-3xl drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">The Strategic Partnership</h3>
-        <p className="mt-4 leading-8 text-[#F4F1EA]">
-          We don’t spin in circles trying to manage your disruption or look for safety in the chaos. This space is a dedicated war-room for your life. We use real data, proven patterns, and a strict operational code to move you from the brush bash to your summit with momentum.
-        </p>
-      </div>
-    </div>
-  </div>
+  
 </section>
 <section className="bg-[#F4F1EA] px-7 py-24 md:px-16">
   <div className="mx-auto max-w-7xl">
@@ -361,86 +345,8 @@ REAL TURNAROUNDS. UNCOMPROMISED RESULTS.    </h2>
 
   </div>
 </section>
-<section className="bg-[#F4F1EA] px-7 py-16 text-[#26382F] md:px-16">
-  <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
 
-    {/* LEFT COLUMN — PHOTO */}
-    <div>
-      <img
-        src="/chris.jpg"
-        alt="Chris Mamone"
-        className="w-full rounded-[36px] object-cover shadow-xl lg:h-[700px]"
-      />
-    </div>
 
-    {/* RIGHT COLUMN — CONTENT */}
-    <div>
-      <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#445146]">
-        THE NEXT ASCENT
-      </p>
-
-      <h2 className="max-w-3xl font-serif text-5xl leading-[1.08] text-[#26382F]">
-        Stop Guessing. Start Rebuilding.
-      </h2>
-
-      <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5D625A]">
-        You don't need options. You need an execution strategy. This partnership is designed for 
-        outliers who are ready to break out of the stagnation loop and make a massive comeback. 
-      </p>
-
-      {/* PRIMARY OFFER */}
-      <div className="mt-12 rounded-[30px] border border-[#DDE2D5] bg-white p-8 shadow-sm ring-2 ring-[#DDE2D5]">
-        <p className="mb-4 text-[0.75rem] font-semibold uppercase tracking-[0.28em] text-[#445146]">
-          THE 90-DAY REBUILDING FRAMEWORK
-        </p>
-
-        <h3 className="font-serif text-3xl text-[#26382F]">
-          1:1 Strategic Partnership for Outliers
-        </h3>
-
-        <p className="mt-2 font-semibold text-[#445146]">
-          Personalized support to create your next evolution.
-        </p>
-
-        <p className="mt-6 leading-8 text-[#5D625A]">
-          A rigorous, 3-phase rebuilding container to clear the aftermath of
-          life disruption, break past conditioning, and establish an
-          unshakable foundation. No fluff. Just alignment and forward momentum.
-        </p>
-
-        <Link
-          href="/book"
-          className="mt-8 inline-flex rounded-full bg-[#26382F] px-7 py-4 font-semibold text-white shadow-md transition hover:opacity-90"
-        >
-          I'M READY TO REBUILD →
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
-<section className="bg-[#26382F] px-7 py-18 text-[#F4F1EA] md:px-16">
-  <div className="mx-auto max-w-4xl text-center">
-    <p className="mb-4 text-[0.82rem] font-semibold uppercase tracking-[0.38em] text-[#EFE0C3]/80">
-THE EXPEDITION BEGINS NOW    </p>
-
-    <h2 className="font-serif text-5xl leading-[1.08] md:text-6xl">
-      STOP GUESSING. 
-      <br />
-      START REBUILDING.
-    </h2>
-
-    <p className="mx-auto mt-7 max-w-3xl text-lg leading-8 text-[#D8D0C5]">
-      The trail ahead requires a clear blueprint, not endless wheel-spinning. If you are a self-reliant outlier done with playing small in the aftermath of a major life disruption, it is time to map your next evolution.
-    </p>
-
-    <Link
-  href="/book"
-  className="mt-10 inline-flex rounded-full border border-[#EFE0C3]/30 bg-[#EFE0C3] px-9 py-4 font-semibold text-[#26382F]"
->
-  I'm Ready to Rebuild
-</Link>
-  </div>
-</section>
 <footer className="bg-[#1f2f28] px-7 py-10 text-[#F4F1EA] md:px-16">
   <div className="mx-auto max-w-7xl text-center">
 
@@ -477,10 +383,8 @@ THE EXPEDITION BEGINS NOW    </p>
       <a href="#">TikTok</a>
       <a href="#">Substack</a>
     </div>
-
   </div>
 </footer>
-  
-</main>
+  </main>
 );
 }

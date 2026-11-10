@@ -7,80 +7,92 @@ import Link from "next/link";
 export default function Home() {  
   return (
     <main className="min-h-screen bg-[#F4F1EA] text-[#26382F]">
-     
+           {/* HERO SECTION */}
       <section
-  className="relative min-h-[60vh] bg-cover bg-[center_30%] pt-28 md:min-h-[55vh] md:pt-0"
-  style={{ backgroundImage: "url('/hero.jpg')" }}
->
-        <div className="absolute inset-0 bg-black/5" />
+        
+className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-center px-6 py-16 md:min-h-[60vh] md:px-16 md:py-20"
 
-        <div className="relative z-10 flex min-h-[60vh] translate-y-4 items-center px-6 md:min-h-[55vh] md:px-16">
-          <div className="relative max-w-4xl text-white">
-  <div
-    aria-hidden="true"
-    className="absolute -inset-x-8 -inset-y-7 -z-10 rounded-[40px] bg-[#0B211A]/55 blur-2xl md:-inset-x-10 md:-inset-y-9"
-  />
-            <p className="mb-7 ml-[2px] text-[0.82rem] font-bold uppercase tracking-[0.42em] text-white">
-  A Message For The Relentless...
-</p>
+        style={{ backgroundImage: "url('/hero.jpg')" }}
+      >
+               {/* Centered hero content */}
+        
+<div className="relative z-10 mx-auto max-w-5xl text-center text-white">
 
-<h1 className="font-serif leading-[0.95] tracking-tight md:text-5xl">
-  FOR THE UNTAMED WHO 
-  <br />
-  ARE FORGED IN THE FIRE.
-</h1>
-<h2 className="mt-5 max-w-4xl font-serif text-3xl leading-[1.08] text-[#F4F1EA] md:text-3xl">
-  Clear the aftermath of life disruption and build
-  <br />
-  an unshakable foundation for your next evolution.
-</h2>
+  {/* Soft feathered shadow behind the text */}
+  
+<div
+  aria-hidden="true"
+  className="pointer-events-none absolute -z-10"
+  style={{
+    width: "145vw",
+    height: "130%",
+    left: "50%",
+    top: "50%",
+    transform: "translate(-50%, -50%)",
+    background:
+      "radial-gradient(ellipse at center, rgba(15,30,35,0.55) 0%, rgba(15,30,35,0.38) 30%, rgba(15,30,35,0.18) 55%, rgba(15,30,35,0) 75%)",
+  }}
+/>
 
-<p className="mt-5 max-w-4xl text-[1.15rem] leading-[1.55] text-[#F2F4F1]">
-  <span className="md:block">
-    Stop playing small in a story you&apos;ve already outgrown.
-  </span>
 
-  <span className="md:block">
-    This strategic partnership is designed to clear the wreckage of the past 
-  </span>
 
-  <span className="md:block">
-     and architect a life of absolute freedom and alignment.
-  </span>
-</p>
-            <div className="mt-9">
-  <Link
-    href="/book"
-    className="
-      group
-      inline-flex items-center justify-center gap-4
-      rounded-full
-      border border-white/70
-      bg-white/10
-      px-8 py-4
-      text-[1.05rem] font-semibold text-white
-      shadow-lg shadow-black/15
-      backdrop-blur-md
-      transition-all duration-300 ease-out
-      hover:-translate-y-1
-      hover:border-white
-      hover:bg-white/20
-      hover:shadow-xl hover:shadow-black/25
-      active:translate-y-0
-      active:scale-[0.97]
-      focus-visible:outline-none
-      focus-visible:ring-2
-      focus-visible:ring-white
-      focus-visible:ring-offset-2
-      focus-visible:ring-offset-transparent
-    "
-  >
-    <span>Claim Your Evolution Now</span>    
-  </Link>
-</div>
+          {/* Main headline */}
+          
+<h1 className="mx-auto max-w-4xl font-serif text-3xl leading-[1.15] tracking-tight md:text-4xl lg:text-5xl">
+
+            Rediscover who you are.
+            <br />
+            Reclaim your direction.
+            <br />
+            Rebuild your life.
+          </h1>
+
+          {/* Coaching description */}
+          
+<p className="mx-auto mt-8 max-w-3xl font-serif text-[1.3rem] font-normal leading-[1.55] tracking-[0.01em] text-[#F4F1EA] md:text-[1.5rem]">
+
+            I help people feeling lost or stuck after major life changes
+            rebuild their confidence, break free from limiting patterns,
+            and create a life that reflects who they're becoming.
+          </p>
+
+          {/* Brand statement */}
+          
+<p className="mx-auto mt-8 font-serif text-xl font-bold italic text-white md:text-2xl">
+
+            You don&apos;t rebuild backward. You rebuild untamed.
+          </p>
+
+          {/* Call to action */}
+          <div className="mt-10 flex justify-center">
+            <Link
+              href="/book"
+              className="
+                inline-flex items-center justify-center
+                rounded-full
+                border border-white/70
+                bg-white/15
+                px-9 py-4
+                text-base font-semibold text-white
+                shadow-lg shadow-black/15
+                backdrop-blur-md
+                transition-all duration-300 ease-out
+                hover:-translate-y-1
+                hover:border-white
+                hover:bg-white/25
+                hover:shadow-xl hover:shadow-black/25
+                focus-visible:outline-none
+                focus-visible:ring-2
+                focus-visible:ring-white
+                active:scale-[0.97]
+              "
+            >
+              Book Your Free Call
+            </Link>
           </div>
         </div>
       </section>
+
 <section className="bg-[#F4F1EA] px-7 py-10 md:px-16">
   <div className="mx-auto max-w-7xl">
     {/* ROW 1: FULL WIDTH */}
@@ -262,7 +274,9 @@ The wreckage is gone and your unshakeable foundation is locked in. No more looki
   </Link>
 
   <p className="mt-4 text-[0.9rem] font-medium tracking-[0.01em] text-[#5D625A]">
-    Apply for the 90-Day Catalyst Framework. Limited proximity slots available.
+    Apply for the 90-Day Catalyst. Limited private coaching spaces available.
+    <br />
+    The 90-Day Catalyst is a private 1:1 coaching partnership for people rebuilding after serious life disruption.
   </p>
 </div>
         </div>

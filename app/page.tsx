@@ -132,7 +132,7 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
     </div>
     
 {/* SECTION: YOUR STRATEGIC PARTNER */}
-<div className="mx-auto max-w-5xl border-b border-[#26382F]/30 px-4 py-14 text-center md:py-20">
+<div className="mx-auto max-w-5xl border-b border-[#26382F]/30 px-4 py-14 text-center md:py-16">
 
   <p className="text-[0.82rem] font-bold uppercase tracking-[0.38em] text-[#445146]">
     YOUR STRATEGIC PARTNER
@@ -176,6 +176,28 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
       My role is to help you find your way forward.
     </p>
 
+{/* Strategic Partner Call to Action */}
+<div className="mt-9 flex justify-center">
+  <Link
+    href="/book"
+    className="
+      inline-flex items-center justify-center
+      rounded-full
+      bg-[#26382F]
+      px-9 py-4
+      text-base font-semibold text-white
+      shadow-lg shadow-black/10
+      transition-all duration-300
+      hover:-translate-y-1
+      hover:bg-[#1A1A1A]
+      hover:shadow-xl
+      active:scale-[0.97]
+    "
+  >
+    Book Your Free Call
+  </Link>
+</div>
+
   </div>
 </div>
 
@@ -184,13 +206,28 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 <div className="mx-auto grid max-w-6xl items-center gap-10 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14 lg:py-20">
 
   {/* LEFT COLUMN: PHOTO */}
-  <div className="overflow-hidden rounded-[36px] shadow-lg shadow-[#26382F]/10">
+  
+<div className="flex flex-col items-center">
+
+  <div className="w-full overflow-hidden rounded-[36px] shadow-lg shadow-[#26382F]/10">
     <img
       src="/chris.jpg"
       alt="Chris Mamone"
-      className="h-[450px] w-full object-cover object-center md:h-[580px] lg:h-[650px]"
+      className="h-[450px] w-full object-cover object-center md:h-[520px] lg:h-[580px]"
     />
   </div>
+
+  <div className="mt-5 text-center">
+    <p className="font-serif text-[1.65rem] font-semibold text-[#26382F]">
+      Chris Mamone
+    </p>
+    <p className="mt-1 text-[0.75rem] font-semibold uppercase tracking-[0.22em] text-[#445146]">
+      Founder | The Untamed Rebuilder
+    </p>
+  </div>
+
+</div>
+
 
   {/* RIGHT COLUMN: INTRODUCTION */}
   <div className="flex max-w-[660px] flex-col justify-center">
@@ -199,56 +236,45 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
       MEET YOUR COACH
     </p>
 
-    <h2 className="mt-5 font-serif text-[2.2rem] leading-[1.1] tracking-tight text-[#26382F] md:text-[2.8rem]">
+    <h2 className="mt-5 font-serif text-[2.2rem] leading-[1.1] tracking-tight text-[#26382F] md:text-[2.2rem]">
       Real Life Experience.
       <br />
       Real Understanding.
     </h2>
 
-    <div className="mt-7 space-y-6 text-[1.1rem] leading-[1.75] text-[#5D625A]">
+    
+<div className="mt-7 space-y-4 text-[1.05rem] leading-[1.7] text-[#5D625A]">
 
-      <p>
-        I'm Chris Mamone, and I know what it feels like
-        when the life you've known and the future you
-        imagined suddenly disappear.
-      </p>
+  <p>
+    I've experienced firsthand what happens when the life
+    you knew and the future you imagined suddenly disappear.
+    Significant loss, unexpected upheaval, and rebuilding
+    my life have taught me that moving forward isn't about
+    returning to who you used to be.
+  </p>
 
-      <p>
-        I've experienced significant loss, unexpected
-        upheaval, and the difficult process of
-        rediscovering who I am when the life I'd
-        built no longer fit.
-      </p>
+  <p className="font-serif text-[1.3rem] font-semibold text-[#26382F]">
+    It's about rediscovering who you are and choosing
+    who you want to become.
+  </p>
 
-      <p>
-        Those experiences taught me something important:
-        rebuilding isn't about returning to who you
-        used to be. It's about discovering who you're
-        becoming and making intentional choices about
-        what comes next.
-      </p>
+  <p>
+    Those experiences shape my coaching today. I bring
+    genuine compassion, lived experience, and a commitment
+    to helping you uncover your strengths, challenge what's
+    holding you back, and move forward with greater
+    confidence and clarity.
+  </p>
 
-      <p>
-        That understanding shapes how I work with
-        my clients today.
-      </p>
+  <p className="font-serif text-[1.25rem] font-bold leading-[1.5] text-[#26382F]">
+        You have the freedom to choose who to become. Your evolution is yours to create.
+  </p>
 
-      <p>
-        I bring lived experience, genuine compassion,
-        and a commitment to helping you recognize your
-        strengths, challenge what's holding you back,
-        and move forward with greater confidence and clarity.
-      </p>
+</div>
 
-      <p className="font-serif text-[1.35rem] font-bold leading-[1.5] text-[#26382F]">
-        You don't have to become who you were before.
-        You have the freedom to become who you choose to be.
-      </p>
-
-    </div>
 
     {/* CALL TO ACTION */}
-    <div className="mt-9">
+    <div className="mt-7">
       <Link
         href="/coaching"
         className="

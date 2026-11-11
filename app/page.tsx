@@ -101,98 +101,177 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
         THE UNTAMED REBUILDER
       </p>
 
-      <h2 className="mx-auto max-w-5xl font-serif text-[1.9rem] leading-[1.08] tracking-tight text-[#26382F] md:text-[1.75rem]">
-  <span className="block">
-    I’m not here to help you tolerate the disruptions keeping you small.
-  </span>
-  <span className="mt-5 block">
-    Together, we will clear the aftermath of the fire, break the conditioning
-    holding you back, and build an unshakable foundation for your next
-    evolution.
-  </span>
-</h2>
+      
+<div className="mx-auto max-w-4xl text-center">
+
+  {/* Opening statement */}
+  <h2 className="font-serif text-[1.9rem] leading-[1.2] tracking-tight text-[#26382F] md:text-[2.2rem]">
+    When life no longer looks the way you imagined…
+  </h2>
+
+  {/* Emotional connection */}
+  <p className="mx-auto mt-6 max-w-3xl font-serif text-[1.4rem] leading-[1.45] text-[#26382F] md:text-[1.6rem]">
+    It&apos;s easy to lose sight of who you are, what matters to you,
+    and where you want to go.
+  </p>
+
+  {/* Turning point */}
+  <p className="mx-auto mt-7 font-serif text-[1.5rem] font-semibold leading-[1.35] text-[#26382F] md:text-[1.75rem]">
+    But feeling lost doesn&apos;t mean you have to stay stuck.
+  </p>
+
+  {/* Forward-looking message */}
+  <p className="mx-auto mt-7 max-w-3xl font-serif text-[1.3rem] leading-[1.5] text-[#26382F] md:text-[1.3rem]">
+    You have the opportunity to rediscover yourself, challenge the
+    patterns holding you back, and create a future that reflects
+    who you&apos;re becoming.
+  </p>
+
+</div>
+
     </div>
-    {/* ROW 2: COACH INTRODUCTION */}
-<div className="mx-auto grid max-w-6xl gap-10 py-10 lg:grid-cols-[0.9fr_1.0fr] lg:items-stretch lg:gap-14">
-  {/* COLUMN A: PHOTO */}
-  <div className="h-[500px] lg:h-auto">
+    
+{/* SECTION: YOUR STRATEGIC PARTNER */}
+<div className="mx-auto max-w-5xl border-b border-[#26382F]/30 px-4 py-14 text-center md:py-20">
+
+  <p className="text-[0.82rem] font-bold uppercase tracking-[0.38em] text-[#445146]">
+    YOUR STRATEGIC PARTNER
+  </p>
+
+  <h2 className="mt-6 font-serif text-[2rem] leading-[1.15] tracking-tight text-[#26382F] md:text-[2.8rem]">
+    You Don't Have to Figure It All Out Alone.
+  </h2>
+
+  <div className="mx-auto mt-8 max-w-3xl space-y-6 text-[1.1rem] leading-[1.8] text-[#5D625A] md:text-[1.2rem]">
+
+    <p>
+      When you're trying to rediscover yourself and figure out
+      what comes next, the last thing you need is someone
+      telling you how to live your life.
+    </p>
+
+    <p>
+      You need someone who listens, understands, challenges
+      you when necessary, and helps you recognize possibilities
+      you may not see for yourself.
+    </p>
+
+    <p className="font-serif text-[1.5rem] font-semibold text-[#26382F]">
+      That's how I approach coaching.
+    </p>
+
+    <p>
+      I don't believe in fixing people or handing out
+      one-size-fits-all solutions. I believe in walking
+      beside you, helping you uncover your strengths,
+      challenge limiting beliefs, and make decisions
+      that align with who you are and what you want.
+    </p>
+
+    <p className="font-serif text-[1.5rem] font-bold text-[#26382F] md:text-[1.7rem]">
+      This is your life. Your direction. Your evolution.
+    </p>
+
+    <p>
+      My role is to help you find your way forward.
+    </p>
+
+  </div>
+</div>
+
+
+{/* SECTION: MEET YOUR COACH */}
+<div className="mx-auto grid max-w-6xl items-center gap-10 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14 lg:py-20">
+
+  {/* LEFT COLUMN: PHOTO */}
+  <div className="overflow-hidden rounded-[36px] shadow-lg shadow-[#26382F]/10">
     <img
       src="/chris.jpg"
       alt="Chris Mamone"
-      className="h-full w-full rounded-[36px] object-cover object-center shadow-lg shadow-[#26382F]/10"
+      className="h-[450px] w-full object-cover object-center md:h-[580px] lg:h-[650px]"
     />
   </div>
 
-  {/* COLUMN B: INTRODUCTION */}
+  {/* RIGHT COLUMN: INTRODUCTION */}
   <div className="flex max-w-[660px] flex-col justify-center">
+
     <p className="text-[0.82rem] font-bold uppercase tracking-[0.38em] text-[#445146]">
-      Your Strategic Partner
+      MEET YOUR COACH
     </p>
 
-    <h2 className="mt-4 font-serif text-[2.3rem] leading-[1.05] tracking-tight text-[#26382F] md:text-[2.8rem]">
-      Real life experience.
+    <h2 className="mt-5 font-serif text-[2.2rem] leading-[1.1] tracking-tight text-[#26382F] md:text-[2.8rem]">
+      Real Life Experience.
+      <br />
+      Real Understanding.
     </h2>
 
     <div className="mt-7 space-y-6 text-[1.1rem] leading-[1.75] text-[#5D625A]">
-      <p>
-        I’m Chris Mamone, and I know exactly what serious life disruption feels like. The moment 
-        where the life you live and the future you planned for suddenly disappear, and going back to "normal" 
-        is no longer an option.
-        </p>
-
-      <p> <strong className="font-semibold text-[#26382F]">
-        This framework didn't come from courses and textbooks. It was created after years of experience
-        having my own life burnt to the ground more than once.
-        </strong></p>
 
       <p>
-        I’ve walked through the fire of sudden loss, unexpected upheaval, and the complete collapse of identity.
-        Rebuilding demanded far more than simple resilience. It required me to face the wreckage of my own journey, 
-        break the conditioning that held me captive to my past, and become the sole architect of what came next.
+        I'm Chris Mamone, and I know what it feels like
+        when the life you've known and the future you
+        imagined suddenly disappear.
       </p>
 
       <p>
-        That lived experience shapes every partnership. I walk beside you with uncompromising truth, execution, and deep
-        respect for what this moment demands of you. I meet you exactly where you are, with zero judgment, 
-        focused entirely on who you are becoming. You bring the raw truth of your current reality. I bring the strategy, 
-        framework, and structure to clear the aftermath and build an unshakeable foundation.        
-           
+        I've experienced significant loss, unexpected
+        upheaval, and the difficult process of
+        rediscovering who I am when the life I'd
+        built no longer fit.
       </p>
+
+      <p>
+        Those experiences taught me something important:
+        rebuilding isn't about returning to who you
+        used to be. It's about discovering who you're
+        becoming and making intentional choices about
+        what comes next.
+      </p>
+
+      <p>
+        That understanding shapes how I work with
+        my clients today.
+      </p>
+
+      <p>
+        I bring lived experience, genuine compassion,
+        and a commitment to helping you recognize your
+        strengths, challenge what's holding you back,
+        and move forward with greater confidence and clarity.
+      </p>
+
+      <p className="font-serif text-[1.35rem] font-bold leading-[1.5] text-[#26382F]">
+        You don't have to become who you were before.
+        You have the freedom to become who you choose to be.
+      </p>
+
     </div>
 
-    <Link
-  href="/coaching"
-  className="
-    group
-    mt-9
-    inline-flex
-    w-fit
-    self-start
-    items-center
-    justify-center
-    whitespace-nowrap
-    rounded-full
-    bg-[#26382F]
-    px-8
-    py-4
-    font-semibold
-    text-white
-    shadow-lg
-    shadow-black/10
-    transition-all
-    duration-300
-    hover:-translate-y-1
-    hover:bg-[#1A1A1A]
-    hover:shadow-xl
-    active:translate-y-0
-    active:scale-[0.97]
-  "
->
-  Explore The Evolution Blueprint
-</Link>
+    {/* CALL TO ACTION */}
+    <div className="mt-9">
+      <Link
+        href="/coaching"
+        className="
+          inline-flex items-center justify-center
+          rounded-full
+          bg-[#26382F]
+          px-8 py-4
+          font-semibold text-white
+          shadow-lg shadow-black/10
+          transition-all duration-300
+          hover:-translate-y-1
+          hover:bg-[#1A1A1A]
+          hover:shadow-xl
+          active:scale-[0.97]
+        "
+      >
+        Explore The 90-Day Catalyst
+      </Link>
+    </div>
+
   </div>
 </div>
-  </div>
+</div>
 </section>
 
       <section className="bg-[var(--brand-sage)] px-7 py-20 md:px-16 md:py-14">

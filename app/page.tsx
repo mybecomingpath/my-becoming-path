@@ -650,7 +650,7 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
 {/* FINAL HOMEPAGE CALL TO ACTION */}
 
-<section className="mx-7 mt-14 overflow-hidden rounded-[32px] bg-[#405F6B] px-7 py-12 md:mx-16 md:mt-16 md:px-16 md:py-14">
+<section className="mx-7 mt-14 overflow-hidden rounded-[32px] bg-[#526B65] px-7 py-12 md:mx-16 md:mt-16 md:px-16 md:py-14">
 
   <div className="mx-auto max-w-4xl text-center">
 
@@ -731,7 +731,159 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
     </div>
 
   </div>
+  
 </section>
+
+
+{/* FREE GUIDE EMAIL SIGNUP SECTION */}
+<section className="bg-[#F4F1EA] px-6 py-14 md:px-16 md:py-20">
+
+  <div className="mx-auto max-w-5xl rounded-[32px] bg-[#E5EBE4] px-6 py-12 md:px-14 md:py-16">
+
+    {/* SECTION INTRODUCTION */}
+    <div className="mx-auto max-w-3xl text-center">
+
+      <p className="text-[0.8rem] font-bold uppercase tracking-[0.32em] text-[#445146]">
+        A FREE GUIDE FOR YOUR NEXT CHAPTER
+      </p>
+
+      <h2 className="mt-6 font-serif text-[2.3rem] leading-[1.15] tracking-tight text-[#26382F] md:text-[3rem]">
+        Feeling Lost?
+        <br />
+        Find Your Way Forward.
+      </h2>
+
+      <h3 className="mx-auto mt-6 max-w-2xl font-serif text-[1.4rem] leading-[1.4] text-[#26382F] md:text-[1.65rem]">
+        5 Steps to Rediscover Yourself and Find Your Direction
+      </h3>
+
+      <p className="mx-auto mt-7 max-w-2xl text-[1.05rem] leading-[1.8] text-[#5D625A]">
+        When life no longer looks the way you imagined,
+        figuring out what comes next can feel overwhelming.
+      </p>
+
+      <p className="mx-auto mt-4 max-w-2xl text-[1.05rem] leading-[1.8] text-[#5D625A]">
+        This free guide will help you slow down, reconnect
+        with what matters, recognize the patterns keeping
+        you stuck, and begin moving forward with greater
+        confidence and clarity.
+      </p>
+
+    </div>
+
+
+    {/* GUIDE BENEFITS & EMAIL SIGNUP CARD */}
+    <div className="mx-auto mt-12 max-w-3xl rounded-[28px] bg-white px-6 py-10 shadow-sm md:px-12 md:py-12">
+
+      <h3 className="text-center font-serif text-[1.9rem] text-[#26382F]">
+        Inside Your Free Guide
+      </h3>
+
+      {/* FIVE BENEFITS */}
+      
+<ul className="mx-auto mt-8 w-fit max-w-full space-y-5 text-left">
+
+
+        <li className="flex items-start gap-4">
+          <span className="mt-1 font-bold text-[#526B65]">
+            ✓
+          </span>
+          <span className="leading-[1.65] text-[#5D625A]">
+            Identify what&apos;s keeping you stuck.
+          </span>
+        </li>
+
+        <li className="flex items-start gap-4">
+          <span className="mt-1 font-bold text-[#526B65]">
+            ✓
+          </span>
+          <span className="leading-[1.65] text-[#5D625A]">
+            Reconnect with your values and strengths.
+          </span>
+        </li>
+
+        <li className="flex items-start gap-4">
+          <span className="mt-1 font-bold text-[#526B65]">
+            ✓
+          </span>
+          <span className="leading-[1.65] text-[#5D625A]">
+            Challenge limiting beliefs and repetitive patterns.
+          </span>
+        </li>
+
+        <li className="flex items-start gap-4">
+          <span className="mt-1 font-bold text-[#526B65]">
+            ✓
+          </span>
+          <span className="leading-[1.65] text-[#5D625A]">
+            Clarify what you want moving forward.
+          </span>
+        </li>
+
+        <li className="flex items-start gap-4">
+          <span className="mt-1 font-bold text-[#526B65]">
+            ✓
+          </span>
+          <span className="leading-[1.65] text-[#5D625A]">
+            Take one meaningful step toward change.
+          </span>
+        </li>
+
+      </ul>
+
+
+      {/* EMAIL SIGNUP FORM */}
+      
+<div className="mx-auto mt-10 max-w-xl border-t border-[#26382F]/15 pt-9">
+
+  <div className="mx-auto max-w-sm">
+
+
+        <form
+          action="/api/subscribe"
+          method="POST"
+          className="space-y-4"
+        >
+          <label
+            htmlFor="guide-email"
+            className="block text-center text-sm font-semibold text-[#26382F]"
+          >
+            Your Email Address
+          </label>
+
+          <input
+            id="guide-email"
+            type="email"
+            name="email"
+            required
+            autoComplete="email"
+            placeholder="Enter your email address..."
+            className="w-full rounded-xl border border-[#26382F]/20 bg-[#F4F1EA] px-5 py-4 text-[#26382F] outline-none transition focus:border-[#26382F] focus:ring-2 focus:ring-[#26382F]/20"
+          />
+
+          <button
+            type="submit"
+            className="w-full rounded-full bg-[#26382F] px-7 py-4 font-semibold text-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:bg-[#405F6B] hover:shadow-lg"
+          >
+            Send Me the Free Guide
+          </button>
+
+        </form>
+
+        <p className="mt-5 text-center text-[0.85rem] leading-[1.6] text-[#5D625A]">
+          Thoughtful insights for your next chapter.
+          Unsubscribe anytime.
+        </p>
+
+      </div>
+     </div>
+    </div>
+
+  </div>
+
+</section>
+
+
 
 </section>
   </main>

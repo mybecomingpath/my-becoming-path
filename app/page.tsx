@@ -203,7 +203,9 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
 
 {/* SECTION: MEET YOUR COACH */}
-<div className="mx-auto grid max-w-6xl items-center gap-10 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14 lg:py-20">
+
+<div className="mx-auto grid max-w-5xl items-center gap-10 pt-16 pb-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-12 lg:pt-20 lg:pb-8">
+
 
   {/* LEFT COLUMN: PHOTO */}
   
@@ -230,7 +232,7 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
 
   {/* RIGHT COLUMN: INTRODUCTION */}
-  <div className="flex max-w-[660px] flex-col justify-center">
+  <div className="flex w-full max-w-[500px] flex-col justify-center lg:justify-self-center">
 
     <p className="text-[0.82rem] font-bold uppercase tracking-[0.38em] text-[#445146]">
       MEET YOUR COACH
@@ -342,126 +344,88 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
     </div>
 
+    
+{/* THREE COACHING PHASES */}
+<div className="mt-14 grid gap-7 lg:grid-cols-3">
 
-    {/* THREE COACHING PHASES */}
-    <div className="mt-14 grid gap-7 lg:grid-cols-3">
+  {[
+    {
+      phase: "01",
+      title: "Clear the Aftermath",
+      subtitle: "Release what's keeping you stuck.",
+      description:
+        "Before you can build something new, you need space to understand what has changed. Together, we'll untangle overwhelming thoughts, explore the emotional impact of your transition, and identify the patterns keeping you connected to the past.",
+      focus:
+        "Greater clarity, emotional awareness, and room to move forward.",
+    },
+    {
+      phase: "02",
+      title: "Reclaim Your Foundation",
+      subtitle: "Reconnect with your identity and values.",
+      description:
+        "When life changes, it's easy to lose sight of who you are beneath expectations and old beliefs. We'll rediscover your strengths, clarify your values, and redefine what a meaningful and fulfilling life looks like on your terms.",
+      focus:
+        "A stronger sense of self, personal boundaries, and renewed confidence.",
+    },
+    {
+      phase: "03",
+      title: "Become Unshakable",
+      subtitle: "Move forward with confidence and direction.",
+      description:
+        "With greater clarity about who you are and what you want, we'll translate your vision into action. Together, we'll create a personalized roadmap, establish supportive habits, and identify achievable steps toward the life you're choosing to build.",
+      focus:
+        "A practical plan, forward momentum, and confidence in your next steps.",
+    },
+  ].map((card, index) => (
+    <div
+      key={card.phase}
+      className="
+        flex h-full flex-col
+        rounded-3xl bg-white p-7 shadow-sm
+        md:p-8
+      "
+    >
 
-      {/* PHASE 1 */}
-      <div className="flex h-full flex-col rounded-3xl bg-white p-7 shadow-sm md:p-8">
-
-        <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
-          <TreePine size={32} />
-        </div>
-
-        <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
-          PHASE 01
-        </p>
-
-        <h3 className="mt-3 text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F]">
-          Clear the Aftermath
-        </h3>
-
-        <p className="mt-5 text-center font-semibold leading-[1.5] text-[#26382F]">
-          Release what&apos;s keeping you stuck.
-        </p>
-
-        <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
-          Before you can build something new, you need space
-          to understand what has changed. Together, we&apos;ll
-          untangle overwhelming thoughts, explore the emotional
-          impact of your transition, and identify the patterns
-          keeping you connected to the past.
-        </p>
-
-        <div className="mt-auto pt-7">
-          <div className="border-t border-[#26382F]/15 pt-5">
-            <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
-              <strong>Your focus:</strong> Greater clarity,
-              emotional awareness, and room to move forward.
-            </p>
-          </div>
-        </div>
-
+      {/* ICON */}
+      <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
+        {index === 0 && <TreePine size={32} />}
+        {index === 1 && <Signpost size={32} />}
+        {index === 2 && <Mountain size={32} />}
       </div>
 
+      {/* PHASE NUMBER */}
+      <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
+        PHASE {card.phase}
+      </p>
 
-      {/* PHASE 2 */}
-      <div className="flex h-full flex-col rounded-3xl bg-white p-7 shadow-sm md:p-8">
+      {/* PHASE TITLE */}
+      <h3 className="mt-3 flex items-center justify-center text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F] lg:h-[72px]">
+        {card.title}
+      </h3>
 
-        <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
-          <Signpost size={32} />
+      {/* BOLD SUBHEADING */}
+      <p className="mt-2 flex items-center justify-center text-center font-semibold leading-[1.5] text-[#26382F] lg:h-[60px]">
+        {card.subtitle}
+      </p>
+
+      {/* DESCRIPTION */}
+      <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
+        {card.description}
+      </p>
+
+      {/* YOUR FOCUS */}
+      <div className="mt-auto pt-7">
+        <div className="flex flex-col justify-center border-t border-[#26382F]/15 pt-5 lg:min-h-[110px]">
+          <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
+            <strong>Your focus:</strong> {card.focus}
+          </p>
         </div>
-
-        <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
-          PHASE 02
-        </p>
-
-        <h3 className="mt-3 text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F]">
-          Reclaim Your Foundation
-        </h3>
-
-        <p className="mt-5 text-center font-semibold leading-[1.5] text-[#26382F]">
-          Reconnect with your identity and values.
-        </p>
-
-        <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
-          When life changes, it&apos;s easy to lose sight of
-          who you are beneath expectations and old beliefs.
-          We&apos;ll rediscover your strengths, clarify your
-          values, and redefine what a meaningful and fulfilling
-          life looks like on your terms.
-        </p>
-
-        <div className="mt-auto pt-7">
-          <div className="border-t border-[#26382F]/15 pt-5">
-            <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
-              <strong>Your focus:</strong> A stronger sense of self,
-              personal boundaries, and renewed confidence.
-            </p>
-          </div>
-        </div>
-
       </div>
 
-
-      {/* PHASE 3 */}
-      <div className="flex h-full flex-col rounded-3xl bg-white p-7 shadow-sm md:p-8">
-
-        <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
-          <Mountain size={32} />
-        </div>
-
-        <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
-          PHASE 03
-        </p>
-
-        <h3 className="mt-3 text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F]">
-          Become Unshakable
-        </h3>
-
-        <p className="mt-5 text-center font-semibold leading-[1.5] text-[#26382F]">
-          Move forward with confidence and direction.
-        </p>
-
-        <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
-          With greater clarity about who you are and what
-          you want, we&apos;ll translate your vision into action.
-          Together, we&apos;ll create a personalized roadmap,
-          establish supportive habits, and identify achievable
-          steps toward the life you&apos;re choosing to build.
-        </p>
-
-        <div className="mt-auto pt-7">
-          <div className="border-t border-[#26382F]/15 pt-5">
-            <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
-              <strong>Your focus:</strong> A practical plan,
-              forward momentum, and confidence in your next steps.
-            </p>
-          </div>
-        </div>
-
-      </div>
     </div>
+  ))}
+
+</div>
 
 
     {/* INSIDE THE EXPERIENCE */}
@@ -537,7 +501,7 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
 
     {/* FINAL CALL TO ACTION */}
-    <div className="mx-auto mt-16 max-w-5xl rounded-[32px] border border-[#26382F]/10 bg-[#F4F1EA] px-6 py-12 text-center md:px-12 md:py-14">
+    <div className="mx-auto mt-16 max-w-4xl rounded-[32px] border border-[#26382F]/10 bg-[#F4F1EA] px-6 py-12 text-center md:px-12 md:py-14">
 
       <p className="text-[0.75rem] font-bold uppercase tracking-[0.28em] text-[#445146]">
         YOUR NEXT CHAPTER STARTS WITH A CHOICE
@@ -736,7 +700,7 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
 
 {/* FREE GUIDE EMAIL SIGNUP SECTION */}
-<section className="bg-[#F4F1EA] px-6 py-14 md:px-16 md:py-20">
+<section className="bg-[#F4F1EA] px-6 pt-14 pb-6 md:px-16 md:pt-20 md:pb-8">
 
   <div className="mx-auto max-w-5xl rounded-[32px] bg-[#E5EBE4] px-6 py-12 md:px-14 md:py-16">
 
@@ -773,7 +737,7 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 
 
     {/* GUIDE BENEFITS & EMAIL SIGNUP CARD */}
-    <div className="mx-auto mt-12 max-w-3xl rounded-[28px] bg-white px-6 py-10 shadow-sm md:px-12 md:py-12">
+    <div className="mx-auto mt-12 max-w-2xl rounded-[28px] bg-white px-6 py-10 shadow-sm md:px-12 md:py-12">
 
       <h3 className="text-center font-serif text-[1.9rem] text-[#26382F]">
         Inside Your Free Guide

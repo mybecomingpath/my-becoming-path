@@ -300,92 +300,296 @@ className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-ce
 </div>
 </section>
 
-      <section className="bg-[var(--brand-sage)] px-7 py-20 md:px-16 md:py-14">
-        <div className="mx-auto max-w-7xl text-center">
-          
-          <h2 className="font-serif text-5xl leading-[1.15] text-[#26382F]">
-            
-            YOUR EVOLUTION
-          </h2>
+     
+{/* 90-DAY CATALYST SECTION */}
+<section className="bg-[var(--brand-sage)] px-7 py-16 md:px-16 md:py-20">
 
-          <h3 className="mt-5 text-center font-serif text-2xl text-[#26382F]">
-          The 90-Day Catalyst to Reclaim Your Edge
-</h3>
+  <div className="mx-auto max-w-7xl">
 
-<p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-[#5D625A]">
-  Going back to "normal" is a trap. We don’t manage your life disruption—we transform it.
-  This is where old habits and the illusions of the past come to an end. Together, we clear the 
-  obstacles keeping you small and stagnant to forge a foundation of unshakeable inner strength. 
-  The old path is dead. No more tolerating a life you've outgrown. No more looking back at what was. 
-  It is time to look forward, claim your edge, and forge your future evolution.
+    {/* SECTION INTRODUCTION */}
+    <div className="mx-auto max-w-4xl text-center">
+
+      <p className="text-[0.82rem] font-bold uppercase tracking-[0.32em] text-[#445146]">
+        THE PATH TO YOUR EVOLUTION
+      </p>
+
+      <h2 className="mt-5 font-serif text-[2.2rem] leading-[1.15] tracking-tight text-[#26382F] md:text-[3rem]">
+        Introducing the 90-Day Catalyst
+      </h2>
+
+      <p className="mx-auto mt-7 max-w-3xl font-serif text-[1.45rem] font-semibold leading-[1.4] text-[#26382F] md:text-[1.7rem]">
+        You don&apos;t have to keep waiting for life to change.
+      </p>
+
+      <p className="mx-auto mt-6 max-w-3xl text-[1.05rem] leading-[1.8] text-[#5D625A] md:text-[1.15rem]">
+        Transformation doesn&apos;t happen by accident, and it
+        doesn&apos;t happen overnight. It begins with a decision
+        to stop letting your past determine what&apos;s possible
+        for your future.
+      </p>
+
+      <p className="mx-auto mt-5 max-w-3xl text-[1.05rem] leading-[1.8] text-[#5D625A] md:text-[1.15rem]">
+        The 90-Day Catalyst is a private, personalized coaching
+        experience designed to help you move beyond feeling lost
+        or stuck, rediscover who you are, and build the confidence
+        and direction to create what comes next.
+      </p>
+
+      <p className="mx-auto mt-5 max-w-3xl font-serif text-[1.25rem] italic leading-[1.6] text-[#26382F]">
+        We&apos;ll turn reflection into clarity, clarity into action,
+        and action into meaningful change.
+      </p>
+
+    </div>
+
+
+    {/* THREE COACHING PHASES */}
+    <div className="mt-14 grid gap-7 lg:grid-cols-3">
+
+      {/* PHASE 1 */}
+      <div className="flex h-full flex-col rounded-3xl bg-white p-7 shadow-sm md:p-8">
+
+        <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
+          <TreePine size={32} />
+        </div>
+
+        <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
+          PHASE 01
+        </p>
+
+        <h3 className="mt-3 text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F]">
+          Clear the Aftermath
+        </h3>
+
+        <p className="mt-5 text-center font-semibold leading-[1.5] text-[#26382F]">
+          Release what&apos;s keeping you stuck.
+        </p>
+
+        <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
+          Before you can build something new, you need space
+          to understand what has changed. Together, we&apos;ll
+          untangle overwhelming thoughts, explore the emotional
+          impact of your transition, and identify the patterns
+          keeping you connected to the past.
+        </p>
+
+        <div className="mt-auto pt-7">
+          <div className="border-t border-[#26382F]/15 pt-5">
+            <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
+              <strong>Your focus:</strong> Greater clarity,
+              emotional awareness, and room to move forward.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      {/* PHASE 2 */}
+      <div className="flex h-full flex-col rounded-3xl bg-white p-7 shadow-sm md:p-8">
+
+        <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
+          <Signpost size={32} />
+        </div>
+
+        <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
+          PHASE 02
+        </p>
+
+        <h3 className="mt-3 text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F]">
+          Reclaim Your Foundation
+        </h3>
+
+        <p className="mt-5 text-center font-semibold leading-[1.5] text-[#26382F]">
+          Reconnect with your identity and values.
+        </p>
+
+        <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
+          When life changes, it&apos;s easy to lose sight of
+          who you are beneath expectations and old beliefs.
+          We&apos;ll rediscover your strengths, clarify your
+          values, and redefine what a meaningful and fulfilling
+          life looks like on your terms.
+        </p>
+
+        <div className="mt-auto pt-7">
+          <div className="border-t border-[#26382F]/15 pt-5">
+            <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
+              <strong>Your focus:</strong> A stronger sense of self,
+              personal boundaries, and renewed confidence.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      {/* PHASE 3 */}
+      <div className="flex h-full flex-col rounded-3xl bg-white p-7 shadow-sm md:p-8">
+
+        <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DFE5DB] text-[#26382F]">
+          <Mountain size={32} />
+        </div>
+
+        <p className="text-center text-[0.72rem] font-bold uppercase tracking-[0.25em] text-[#66756B]">
+          PHASE 03
+        </p>
+
+        <h3 className="mt-3 text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F]">
+          Become Unshakable
+        </h3>
+
+        <p className="mt-5 text-center font-semibold leading-[1.5] text-[#26382F]">
+          Move forward with confidence and direction.
+        </p>
+
+        <p className="mt-5 text-center leading-[1.75] text-[#5D625A]">
+          With greater clarity about who you are and what
+          you want, we&apos;ll translate your vision into action.
+          Together, we&apos;ll create a personalized roadmap,
+          establish supportive habits, and identify achievable
+          steps toward the life you&apos;re choosing to build.
+        </p>
+
+        <div className="mt-auto pt-7">
+          <div className="border-t border-[#26382F]/15 pt-5">
+            <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
+              <strong>Your focus:</strong> A practical plan,
+              forward momentum, and confidence in your next steps.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    {/* INSIDE THE EXPERIENCE */}
+    <div className="mx-auto mt-20 max-w-5xl">
+
+      <div className="text-center">
+        <p className="text-[0.82rem] font-bold uppercase tracking-[0.32em] text-[#445146]">
+          INSIDE THE EXPERIENCE
+        </p>
+
+        <h2 className="mx-auto mt-5 max-w-4xl font-serif text-[2rem] leading-[1.2] text-[#26382F] md:text-[2.6rem]">
+          A Partnership in Your Evolution.
+        </h2>
+
+        <p className="mx-auto mt-6 max-w-3xl text-[1.05rem] leading-[1.8] text-[#5D625A]">
+          The 90-Day Catalyst isn&apos;t a passive online course
+          or a collection of generic worksheets. It&apos;s a
+          private coaching partnership centered on you,
+          your challenges, and the future you want to create.
+        </p>
+      </div>
+
+      {/* EXPERIENCE BENEFITS */}
+      <div className="mt-10 grid gap-5 md:grid-cols-2">
+
+        <div className="rounded-3xl bg-white p-7 shadow-sm md:p-8">
+          <h3 className="font-serif text-[1.5rem] text-[#26382F]">
+            90 Days of Personalized 1:1 Coaching
+          </h3>
+          <p className="mt-4 leading-[1.75] text-[#5D625A]">
+            Focused Zoom sessions, typically held bi-weekly,
+            where we explore challenges, uncover opportunities,
+            and develop practical steps toward your goals.
+          </p>
+        </div>
+
+        <div className="rounded-3xl bg-white p-7 shadow-sm md:p-8">
+          <h3 className="font-serif text-[1.5rem] text-[#26382F]">
+            Support Between Sessions
+          </h3>
+          <p className="mt-4 leading-[1.75] text-[#5D625A]">
+            Share reflections, ask questions,
+            and receive support as you navigate what comes
+            up between calls through voice, text, and email.
+          </p>
+        </div>
+
+        <div className="rounded-3xl bg-white p-7 shadow-sm md:p-8">
+          <h3 className="font-serif text-[1.5rem] text-[#26382F]">
+            Personalized Tools and Action Plans
+          </h3>
+          <p className="mt-4 leading-[1.75] text-[#5D625A]">
+            Thoughtful session follow-ups, reflection exercises,
+            and practical strategies tailored to your circumstances
+            to help integrate what you&apos;re learning into everyday life.
+          </p>
+        </div>
+
+        <div className="rounded-3xl bg-white p-7 shadow-sm md:p-8">
+          <h3 className="font-serif text-[1.5rem] text-[#26382F]">
+            A Partnership Built Around You
+          </h3>
+          <p className="mt-4 leading-[1.75] text-[#5D625A]">
+            No one-size-fits-all solutions. No predetermined
+            definition of success. We work together to create
+            meaningful progress in a way that honors your
+            values, circumstances, and goals.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    {/* FINAL CALL TO ACTION */}
+    <div className="mx-auto mt-16 max-w-5xl rounded-[32px] border border-[#26382F]/10 bg-[#F4F1EA] px-6 py-12 text-center md:px-12 md:py-14">
+
+      <p className="text-[0.75rem] font-bold uppercase tracking-[0.28em] text-[#445146]">
+        YOUR NEXT CHAPTER STARTS WITH A CHOICE
+      </p>
+
+      <h2 className="mx-auto mt-5 max-w-3xl font-serif text-[2rem] leading-[1.2] text-[#26382F] md:text-[2.5rem]">
+        You don&apos;t have to have everything figured out to begin.
+      </h2>
+
+      <p className="mx-auto mt-6 max-w-2xl text-[1.05rem] leading-[1.8] text-[#5D625A]">
+        You just have to be willing to explore what&apos;s possible.
+        Let&apos;s talk about where you are, where you want to go,
+        and whether the 90-Day Catalyst is the right next step for you.
+      </p>
+
+      <div className="mt-9 flex justify-center">
+        <Link
+          href="/book"
+          className="
+            inline-flex items-center justify-center
+            rounded-full
+            bg-[#26382F]
+            px-9 py-4
+            text-center text-[1.05rem] font-semibold text-white
+            shadow-lg shadow-black/10
+            transition-all duration-300 ease-out
+            hover:-translate-y-1
+            hover:bg-[#1A1A1A]
+            hover:shadow-xl
+            active:scale-[0.97]
+            focus-visible:outline-none
+            focus-visible:ring-2
+            focus-visible:ring-[#26382F]
+            focus-visible:ring-offset-2
+          "
+        >
+          Book Your Free Discovery Call
+        </Link>
+      </div>
+
+      
+<p className="mx-auto mt-5 max-w-2xl font-serif text-[1.1rem] italic leading-[1.6] text-[#445146]">
+  Let&apos;s start where you are, explore where you
+  want to go, and discover what&apos;s possible together.
 </p>
 
-          <div className="mt-12 grid gap-8 lg:grid-cols-3">
-            <div className="rounded-3xl bg-white p-7 shadow-sm">
-              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
-  <TreePine size={32} />
-</div>
-              <h3 className="font-serif text-2xl">Clear The Aftermath</h3>
-              <p className="mt-3 leading-7 text-[#5D625A]">
-                We run a raw, unfiltered audit on the aftermath of life disruption. The old habits and deep conditioning 
-                keeping you stagnant and small come to an end—transformed here into raw power for your future foundation.
-              </p>
-            </div>
 
-            <div className="rounded-3xl bg-white p-7 shadow-sm">
-              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
-  <Signpost size={32} />
-</div>
-              <h3 className="font-serif text-2xl">Forge The Foundation</h3>
-              <p className="mt-3 leading-7 text-[#5D625A]">
-                When old conditioning creeps up to drag you backward, we recalibrate your mindset, rewrite your internal language, and immediately clear the obstacles, forging ahead to protect your boundaries and drive you forward with relentless momentum.
-              </p>
-            </div>
+    </div>
 
-            <div className="rounded-3xl bg-white p-7 shadow-sm">
-              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[#DDE2D5]">
-  <Mountain size={32} />
-</div>
-              <h3 className="font-serif text-2xl">Claim Your Evolution</h3>
-              <p className="mt-3 leading-7 text-[#5D625A]">
-The wreckage is gone and your unshakeable foundation is locked in. No more looking back—the horizon is directly in front of us. This is your new beginning: a calculated execution to chase your highest goals, lock in your purpose, and actively build life on your terms. This is your evolution.              </p>
-            </div>
-          </div>
-          <div className="mt-12 flex flex-col items-center text-center">
-  <Link
-    href="/contact"
-    className="
-      group
-      inline-flex items-center justify-center gap-3
-      rounded-full
-      bg-[#26382F]
-      px-9 py-4
-      text-[1.05rem] font-semibold text-white
-      shadow-lg shadow-black/10
-      transition-all duration-300 ease-out
-      hover:-translate-y-1
-      hover:bg-[#1A1A1A]
-      hover:shadow-xl hover:shadow-black/20
-      active:translate-y-0
-      active:scale-[0.97]
-      focus-visible:outline-none
-      focus-visible:ring-2
-      focus-visible:ring-[#26382F]
-      focus-visible:ring-offset-2
-      focus-visible:ring-offset-[#E7EBE4]
-    "
-  >
-    <span>Claim My Evolution Now</span>    
-  </Link>
-
-  <p className="mt-4 text-[0.9rem] font-medium tracking-[0.01em] text-[#5D625A]">
-    Apply for the 90-Day Catalyst. Limited private coaching spaces available.
-    <br />
-    The 90-Day Catalyst is a private 1:1 coaching partnership for people rebuilding after serious life disruption.
-  </p>
-</div>
-        </div>
-      </section>      
+  </div>
+</section>
+       
 <section className="bg-[#F4F1EA] px-7 py-16 md:px-16">
   <div className="mx-auto max-w-7xl">
     <div className="mx-auto max-w-3xl text-center">
@@ -440,9 +644,95 @@ The wreckage is gone and your unshakeable foundation is locked in. No more looki
         <p className="mt-6 font-semibold text-[#26382F]">
           — Lidia
         </p>
-      </div>
-    </div>
+      </div>      
+    </div>    
   </div>
+
+{/* FINAL HOMEPAGE CALL TO ACTION */}
+
+<section className="mx-7 mt-14 overflow-hidden rounded-[32px] bg-[#405F6B] px-7 py-12 md:mx-16 md:mt-16 md:px-16 md:py-14">
+
+  <div className="mx-auto max-w-4xl text-center">
+
+    <p className="text-[0.8rem] font-bold uppercase tracking-[0.32em] text-[#D7E0D6]">
+      YOUR NEXT CHAPTER BEGINS HERE
+    </p>
+
+    <h2 className="mt-6 font-serif text-[2.3rem] leading-[1.15] tracking-tight text-white md:text-[3.2rem]">
+      Ready to Rediscover What&apos;s Next?
+    </h2>
+
+    <p className="mx-auto mt-8 max-w-3xl font-serif text-[1.4rem] leading-[1.5] text-[#F4F1EA] md:text-[1.6rem]">
+      You don&apos;t need to have the next ten years figured
+      out before taking your first step. You just need
+      to be willing to take the next one.
+    </p>
+
+    <p className="mx-auto mt-7 max-w-3xl text-[1.05rem] leading-[1.85] text-[#E4E8E2] md:text-[1.15rem]">
+      If you&apos;re feeling stuck, searching for direction,
+      or ready to stop letting a major life change define
+      your future, let&apos;s have a real conversation about
+      where you are and where you want to go.
+    </p>
+
+    {/* BOOKING BUTTON */}
+    <div className="mt-10 flex justify-center">
+      <Link
+        href="/book"
+        className="
+          inline-flex items-center justify-center
+          rounded-full
+          bg-[#F4F1EA]
+          px-9 py-4
+          text-center text-[1.05rem] font-semibold text-[#26382F]
+          shadow-lg shadow-black/15
+          transition-all duration-300 ease-out
+          hover:-translate-y-1
+          hover:bg-white
+          hover:shadow-xl
+          active:scale-[0.97]
+          focus-visible:outline-none
+          focus-visible:ring-2
+          focus-visible:ring-white
+          focus-visible:ring-offset-2
+          focus-visible:ring-offset-[#26382F]
+        "
+      >
+        Book Your Free Discovery Call
+      </Link>
+    </div>
+
+    {/* WHAT TO EXPECT */}
+    
+<div className="mx-auto mt-8 max-w-2xl border-t border-white/20 pt-7">
+
+
+      <h3 className="font-serif text-[1.8rem] text-white md:text-[2rem]">
+        What to Expect
+      </h3>
+
+      <p className="mt-5 text-[1.05rem] leading-[1.75] text-[#E4E8E2]">
+        This is a free, 30-minute conversation focused on you.
+        We&apos;ll explore what&apos;s keeping you stuck,
+        what you&apos;d like to change, and what moving forward
+        could look like.
+      </p>
+
+      <p className="mt-5 text-[1.05rem] leading-[1.85] text-[#E4E8E2]">
+        We&apos;ll also discuss whether the 90-Day Catalyst
+        is the right fit for your goals.
+      </p>
+
+      <p className="mt-8 font-serif text-[1.25rem] italic leading-[1.6] text-[#F4F1EA]">
+        No pressure. No obligation. Just an opportunity
+        to explore what&apos;s possible.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
 </section>
   </main>
 );

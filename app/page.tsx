@@ -10,7 +10,9 @@ export default function Home() {
            {/* HERO SECTION */}
       <section
         
-className="relative flex min-h-[60vh] items-center justify-center bg-cover bg-center px-6 py-16 md:min-h-[60vh] md:px-16 md:py-20"
+
+className="relative flex min-h-[75svh] items-center justify-center overflow-hidden bg-cover bg-center px-6 pt-36 pb-16 md:min-h-[75svh] md:px-16 md:pt-40 md:pb-20 lg:min-h-[60vh] lg:pt-20 lg:pb-20"
+
 
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >

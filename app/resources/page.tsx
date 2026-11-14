@@ -176,30 +176,37 @@ export default function ResourcesPage() {
   </div>
 </section>
 
-     {/* Coaching CTA */}
-<section className="bg-[#223b30] px-6 py-20 text-[#f7f3ea] sm:py-24">
-  <div className="mx-auto max-w-4xl text-center">
-    <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#d8c9a8]">
-      Your becoming path starts here
-    </p>
+     {/* COACHING CTA */}
+      <section className="bg-[#F4F1EA] px-6 pb-16 md:px-16 md:pb-16">
 
-    <h2 className="mt-4 font-serif text-4xl tracking-tight text-white sm:text-5xl">
-      Let’s walk this path together.
-    </h2>
+        <div className="mx-auto max-w-4xl rounded-[32px] bg-[#405F6B] px-6 py-12 text-center md:px-14 md:py-16">
 
-    <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#e5dfd3]">
-      If you’re navigating grief, major change, or a season of rebuilding,
-      coaching offers a grounded place to find clarity, support, and direction.
-    </p>
+          <p className="text-[0.75rem] font-bold uppercase tracking-[0.3em] text-[#D7E0D6]">
+            YOUR NEXT CHAPTER BEGINS HERE
+          </p>
 
-    <Link
-      href="/coaching"
-      className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-[#efe0bf] px-8 py-3 font-semibold text-[#223b30] shadow-sm transition hover:bg-[#e5d2aa] focus:outline-none focus:ring-2 focus:ring-[#efe0bf] focus:ring-offset-2 focus:ring-offset-[#223b30]"
-    >
-      Explore Coaching →
-    </Link>
-  </div>
-</section>
+          <h2 className="mx-auto mt-6 max-w-4xl font-serif text-[2.2rem] leading-[1.15] text-white md:text-[3rem]">
+            Ready to Rediscover What&apos;s Next?
+          </h2>
+
+          <p className="mx-auto mt-7 max-w-2xl text-[1.05rem] leading-[1.8] text-[#F4F1EA]">
+            You don&apos;t have to have everything figured out
+            to begin. Let&apos;s explore where you are,
+            <br /> where you want to go, and what&apos;s possible together.
+          </p>
+
+          <div className="mt-9">
+            <Link
+              href="/book"
+              className="inline-flex items-center justify-center rounded-full bg-[#F4F1EA] px-9 py-4 text-center font-semibold text-[#26382F] shadow-md transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-lg"
+            >
+              Book Your Free Discovery Call
+            </Link>
+          </div>
+
+        </div>
+
+      </section>
     </main>
   );
 }

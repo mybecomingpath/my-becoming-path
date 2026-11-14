@@ -9,7 +9,7 @@ const menuItems = [
   { label: "About Me", href: "/about" },
   { label: "Coaching", href: "/coaching" },
   { label: "Resources", href: "/resources" },
-  { label: "Blog", href: "/blog" },
+  { label: "Insights", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 

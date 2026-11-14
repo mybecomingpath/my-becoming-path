@@ -401,12 +401,12 @@ className="relative flex min-h-[75svh] items-center justify-center overflow-hidd
       </p>
 
       {/* PHASE TITLE */}
-      <h3 className="mt-3 flex items-center justify-center text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F] lg:h-[72px]">
+      <h3 className="mt-3 flex items-center justify-center text-center font-serif text-[1.7rem] leading-[1.15] text-[#26382F] lg:h-[52px]">
         {card.title}
       </h3>
 
       {/* BOLD SUBHEADING */}
-      <p className="mt-2 flex items-center justify-center text-center font-semibold leading-[1.5] text-[#26382F] lg:h-[60px]">
+      <p className="mt-2 flex items-center justify-center text-center font-semibold leading-[1.5] text-[#26382F] lg:h-[40px]">
         {card.subtitle}
       </p>
 
@@ -417,7 +417,7 @@ className="relative flex min-h-[75svh] items-center justify-center overflow-hidd
 
       {/* YOUR FOCUS */}
       <div className="mt-auto pt-7">
-        <div className="flex flex-col justify-center border-t border-[#26382F]/15 pt-5 lg:min-h-[110px]">
+        <div className="flex flex-col justify-center border-t border-[#26382F]/15 pt-5 lg:min-h-[80px]">
           <p className="text-center text-[0.95rem] leading-[1.6] text-[#26382F]">
             <strong>Your focus:</strong> {card.focus}
           </p>
@@ -510,7 +510,9 @@ className="relative flex min-h-[75svh] items-center justify-center overflow-hidd
       </p>
 
       <h2 className="mx-auto mt-5 max-w-3xl font-serif text-[2rem] leading-[1.2] text-[#26382F] md:text-[2.5rem]">
-        You don&apos;t have to have everything figured out to begin.
+        You don&apos;t have to have everything
+        <br/>
+        figured out to begin.
       </h2>
 
       <p className="mx-auto mt-6 max-w-2xl text-[1.05rem] leading-[1.8] text-[#5D625A]">
@@ -616,7 +618,7 @@ className="relative flex min-h-[75svh] items-center justify-center overflow-hidd
 
 {/* FINAL HOMEPAGE CALL TO ACTION */}
 
-<section className="mx-7 mt-14 overflow-hidden rounded-[32px] bg-[#526B65] px-7 py-12 md:mx-16 md:mt-16 md:px-16 md:py-14">
+<section className="mx-7 mt-14 overflow-hidden rounded-[32px] bg-[#526B65] px-7 py-12 md:mx-40 md:mt-16 md:px-16 md:py-12">
 
   <div className="mx-auto max-w-4xl text-center">
 
@@ -704,7 +706,9 @@ className="relative flex min-h-[75svh] items-center justify-center overflow-hidd
 {/* FREE GUIDE EMAIL SIGNUP SECTION */}
 <section className="bg-[#F4F1EA] px-6 pt-14 pb-6 md:px-16 md:pt-20 md:pb-8">
 
-  <div className="mx-auto max-w-5xl rounded-[32px] bg-[#E5EBE4] px-6 py-12 md:px-14 md:py-16">
+  
+<div className="mx-auto max-w-4xl rounded-[32px] bg-[#E5EBE4] px-6 py-8 md:px-10 md:py-10">
+
 
     {/* SECTION INTRODUCTION */}
     <div className="mx-auto max-w-3xl text-center">

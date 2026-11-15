@@ -502,9 +502,11 @@ export default function CoachingPage() {
 
 
       {/* FINAL CTA */}
-      <section className="bg-[#F4F1EA] px-6 pb-16 md:px-16 md:pb-20">
+      
+<section className="bg-[#F4F1EA] px-6 pb-6 md:px-16 md:pb-8">
 
-        <div className="mx-auto max-w-5xl rounded-[32px] bg-[#405F6B] px-6 py-12 text-center md:px-14 md:py-14">
+
+        <div className="mx-auto max-w-4xl rounded-[32px] bg-[#405F6B] px-6 py-12 text-center md:px-14 md:py-12">
 
           <p className="text-[0.75rem] font-bold uppercase tracking-[0.3em] text-[#D7E0D6]">
             YOUR NEXT CHAPTER BEGINS WITH A CHOICE
@@ -536,7 +538,9 @@ export default function CoachingPage() {
 
 
       {/* COACHING DISCLAIMER */}
-      <section className="bg-[#F4F1EA] px-6 pb-12 md:px-16">
+      
+<section className="bg-[#F4F1EA] px-6 pb-12 md:px-16">
+
         <div className="mx-auto max-w-4xl rounded-[20px] border border-[#26382F]/10 bg-white/70 px-6 py-6 text-center">
 
           <p className="text-[0.85rem] leading-[1.8] text-[#5D625A]">

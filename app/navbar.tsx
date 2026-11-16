@@ -8,8 +8,7 @@ const menuItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Coaching", href: "/coaching" },
-  { label: "Resources", href: "/resources" },
-  { label: "Insights", href: "/blog" },
+  { label: "Untamed Collection", href: "/resources" },
   { label: "Contact", href: "/contact" },
 ];
 
